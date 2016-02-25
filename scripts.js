@@ -133,6 +133,7 @@ var tables = {
 
 var medianIncomeData = {};
 
+// builds maps from ACS data
 $.getJSON("output.json", function(json) {
   for (var tableId in tables) {
     for (var key in json.data) {
@@ -162,10 +163,15 @@ $.getJSON("output.json", function(json) {
     });
   }
 
+  // datamaps doesn't seem to build the map if the element is hidden,
+  // so it needs to wait until the map is finished before hiding it
   $('.median-income-map').each(function() {
-    $(this).addClass("hidden");
+    // $(this).addClass("hidden");
+    $(this).hide();
   })
-  $('#medianIncome').removeClass('hidden').addClass('show');
+
+  // show "All" map by default
+  $('#medianIncome').show().addClass('active');
 });
 
 function addMap(id, json) {
@@ -199,7 +205,7 @@ function addMap(id, json) {
 $(document).ready(function() {
   $( "select" ).change(function() {
     var id = "#" + $( "select option:selected" ).val();
-    $('.show').removeClass('show').addClass('hidden');
-    $(id).removeClass('hidden').addClass('show');
+    $('.active').fadeOut(100);
+    $(id).delay(100).fadeIn(500).addClass('active');
   })
 })
