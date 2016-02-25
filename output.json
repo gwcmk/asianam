@@ -1,0 +1,4458 @@
+{
+  "release": {
+    "id": "acs2014_1yr",
+    "name": "ACS 2014 1-year",
+    "years": "2014"
+  },
+  "tables": {
+    "B19013": {
+      "title": "Median Household Income in the Past 12 Months (In 2014 Inflation-adjusted Dollars)",
+      "universe": "Households",
+      "denominator_column_id": null,
+      "columns": {
+        "B19013001": {
+          "name": "Median household income in the past 12 months (in 2014 Inflation-adjusted dollars)",
+          "indent": 0
+        }
+      }
+    },
+    "B19013A": {
+      "title": "Median Household Income in the Past 12 Months (In 2014 Inflation-adjusted Dollars) (White Alone Householder)",
+      "universe": "Households With a Householder Who Is White Alone",
+      "denominator_column_id": null,
+      "columns": {
+        "B19013A001": {
+          "name": "Median household income in the past 12 months (in 2014 Inflation-adjusted dollars)",
+          "indent": 0
+        }
+      }
+    },
+    "B19013B": {
+      "title": "Median Household Income in the Past 12 Months (In 2014 Inflation-adjusted Dollars) (Black or African American Alone Householder)",
+      "universe": "Households With a Householder Who Is Black or African American Alone",
+      "denominator_column_id": null,
+      "columns": {
+        "B19013B001": {
+          "name": "Median household income in the past 12 months (in 2014 Inflation-adjusted dollars)",
+          "indent": 0
+        }
+      }
+    },
+    "B19013C": {
+      "title": "Median Household Income in the Past 12 Months (In 2014 Inflation-adjusted Dollars) (American Indian and Alaska Native Alone Householder)",
+      "universe": "Households With a Householder Who Is American Indian and Alaska Native Alone",
+      "denominator_column_id": null,
+      "columns": {
+        "B19013C001": {
+          "name": "Median household income in the past 12 months (in 2014 Inflation-adjusted dollars)",
+          "indent": 0
+        }
+      }
+    },
+    "B19013D": {
+      "title": "Median Household Income in the Past 12 Months (In 2014 Inflation-adjusted Dollars) (Asian Alone Householder)",
+      "universe": "Households With a Householder Who Is Asian Alone",
+      "denominator_column_id": null,
+      "columns": {
+        "B19013D001": {
+          "name": "Median household income in the past 12 months (in 2014 Inflation-adjusted dollars)",
+          "indent": 0
+        }
+      }
+    },
+    "B19013E": {
+      "title": "Median Household Income in the Past 12 Months (In 2014 Inflation-adjusted Dollars) (Native Hawaiian and Other Pacific Islander Alone Householder)",
+      "universe": "Households With a Householder Who Is Native Hawaiian and Other Pacific Islander Alone",
+      "denominator_column_id": null,
+      "columns": {
+        "B19013E001": {
+          "name": "Median household income in the past 12 months (in 2014 Inflation-adjusted dollars)",
+          "indent": 0
+        }
+      }
+    },
+    "B19013F": {
+      "title": "Median Household Income in the Past 12 Months (In 2014 Inflation-adjusted Dollars) (Some Other Race Alone Householder)",
+      "universe": "Households With a Householder Who Is Some Other Race Alone",
+      "denominator_column_id": null,
+      "columns": {
+        "B19013F001": {
+          "name": "Median household income in the past 12 months (in 2014 Inflation-adjusted dollars)",
+          "indent": 0
+        }
+      }
+    },
+    "B19013G": {
+      "title": "Median Household Income in the Past 12 Months (In 2014 Inflation-adjusted Dollars) (Two or More Races Householder)",
+      "universe": "Households With a Householder Who Is Two or More Races",
+      "denominator_column_id": null,
+      "columns": {
+        "B19013G001": {
+          "name": "Median household income in the past 12 months (in 2014 Inflation-adjusted dollars)",
+          "indent": 0
+        }
+      }
+    },
+    "B19013H": {
+      "title": "Median Household Income in the Past 12 Months (In 2014 Inflation-adjusted Dollars) (White Alone, Not Hispanic or Latino Householder)",
+      "universe": "Households With a Householder Who Is White Alone, Not Hispanic or Latino",
+      "denominator_column_id": null,
+      "columns": {
+        "B19013H001": {
+          "name": "Median household income in the past 12 months (in 2014 Inflation-adjusted dollars)",
+          "indent": 0
+        }
+      }
+    },
+    "B19013I": {
+      "title": "Median Household Income in the Past 12 Months (In 2014 Inflation-adjusted Dollars) (Hispanic or Latino Householder)",
+      "universe": "Households With a Householder Who Is Hispanic or Latino",
+      "denominator_column_id": null,
+      "columns": {
+        "B19013I001": {
+          "name": "Median household income in the past 12 months (in 2014 Inflation-adjusted dollars)",
+          "indent": 0
+        }
+      }
+    }
+  },
+  "data": {
+    "04000US02": {
+      "B19013": {
+        "estimate": {
+          "B19013001": 71583.0
+        },
+        "error": {
+          "B19013001": 1784.0
+        }
+      },
+      "B19013A": {
+        "estimate": {
+          "B19013A001": 79626.0
+        },
+        "error": {
+          "B19013A001": 3213.0
+        }
+      },
+      "B19013B": {
+        "estimate": {
+          "B19013B001": 47226.0
+        },
+        "error": {
+          "B19013B001": 14725.0
+        }
+      },
+      "B19013C": {
+        "estimate": {
+          "B19013C001": 48721.0
+        },
+        "error": {
+          "B19013C001": 2675.0
+        }
+      },
+      "B19013D": {
+        "estimate": {
+          "B19013D001": 62348.0
+        },
+        "error": {
+          "B19013D001": 10544.0
+        }
+      },
+      "B19013E": {
+        "estimate": {
+          "B19013E001": 40227.0
+        },
+        "error": {
+          "B19013E001": 19002.0
+        }
+      },
+      "B19013F": {
+        "estimate": {
+          "B19013F001": 46040.0
+        },
+        "error": {
+          "B19013F001": 30812.0
+        }
+      },
+      "B19013G": {
+        "estimate": {
+          "B19013G001": 63909.0
+        },
+        "error": {
+          "B19013G001": 5767.0
+        }
+      },
+      "B19013H": {
+        "estimate": {
+          "B19013H001": 80656.0
+        },
+        "error": {
+          "B19013H001": 2297.0
+        }
+      },
+      "B19013I": {
+        "estimate": {
+          "B19013I001": 54996.0
+        },
+        "error": {
+          "B19013I001": 9276.0
+        }
+      }
+    },
+    "04000US01": {
+      "B19013": {
+        "estimate": {
+          "B19013001": 42830.0
+        },
+        "error": {
+          "B19013001": 598.0
+        }
+      },
+      "B19013A": {
+        "estimate": {
+          "B19013A001": 49652.0
+        },
+        "error": {
+          "B19013A001": 722.0
+        }
+      },
+      "B19013B": {
+        "estimate": {
+          "B19013B001": 28622.0
+        },
+        "error": {
+          "B19013B001": 873.0
+        }
+      },
+      "B19013C": {
+        "estimate": {
+          "B19013C001": 44340.0
+        },
+        "error": {
+          "B19013C001": 9968.0
+        }
+      },
+      "B19013D": {
+        "estimate": {
+          "B19013D001": 54577.0
+        },
+        "error": {
+          "B19013D001": 10988.0
+        }
+      },
+      "B19013E": {
+        "estimate": {
+          "B19013E001": 165733.0
+        },
+        "error": {
+          "B19013E001": 118366.0
+        }
+      },
+      "B19013F": {
+        "estimate": {
+          "B19013F001": 27688.0
+        },
+        "error": {
+          "B19013F001": 2869.0
+        }
+      },
+      "B19013G": {
+        "estimate": {
+          "B19013G001": 37563.0
+        },
+        "error": {
+          "B19013G001": 5758.0
+        }
+      },
+      "B19013H": {
+        "estimate": {
+          "B19013H001": 50076.0
+        },
+        "error": {
+          "B19013H001": 594.0
+        }
+      },
+      "B19013I": {
+        "estimate": {
+          "B19013I001": 31664.0
+        },
+        "error": {
+          "B19013I001": 2519.0
+        }
+      }
+    },
+    "04000US05": {
+      "B19013": {
+        "estimate": {
+          "B19013001": 41262.0
+        },
+        "error": {
+          "B19013001": 653.0
+        }
+      },
+      "B19013A": {
+        "estimate": {
+          "B19013A001": 44780.0
+        },
+        "error": {
+          "B19013A001": 976.0
+        }
+      },
+      "B19013B": {
+        "estimate": {
+          "B19013B001": 27657.0
+        },
+        "error": {
+          "B19013B001": 1683.0
+        }
+      },
+      "B19013C": {
+        "estimate": {
+          "B19013C001": 31354.0
+        },
+        "error": {
+          "B19013C001": 3662.0
+        }
+      },
+      "B19013D": {
+        "estimate": {
+          "B19013D001": 62291.0
+        },
+        "error": {
+          "B19013D001": 4773.0
+        }
+      },
+      "B19013E": {
+        "estimate": {
+          "B19013E001": 33861.0
+        },
+        "error": {
+          "B19013E001": 24287.0
+        }
+      },
+      "B19013F": {
+        "estimate": {
+          "B19013F001": 34780.0
+        },
+        "error": {
+          "B19013F001": 5352.0
+        }
+      },
+      "B19013G": {
+        "estimate": {
+          "B19013G001": 34603.0
+        },
+        "error": {
+          "B19013G001": 4460.0
+        }
+      },
+      "B19013H": {
+        "estimate": {
+          "B19013H001": 45456.0
+        },
+        "error": {
+          "B19013H001": 848.0
+        }
+      },
+      "B19013I": {
+        "estimate": {
+          "B19013I001": 35348.0
+        },
+        "error": {
+          "B19013I001": 1947.0
+        }
+      }
+    },
+    "04000US04": {
+      "B19013": {
+        "estimate": {
+          "B19013001": 50068.0
+        },
+        "error": {
+          "B19013001": 483.0
+        }
+      },
+      "B19013A": {
+        "estimate": {
+          "B19013A001": 51629.0
+        },
+        "error": {
+          "B19013A001": 448.0
+        }
+      },
+      "B19013B": {
+        "estimate": {
+          "B19013B001": 40064.0
+        },
+        "error": {
+          "B19013B001": 2108.0
+        }
+      },
+      "B19013C": {
+        "estimate": {
+          "B19013C001": 30293.0
+        },
+        "error": {
+          "B19013C001": 2870.0
+        }
+      },
+      "B19013D": {
+        "estimate": {
+          "B19013D001": 63943.0
+        },
+        "error": {
+          "B19013D001": 3939.0
+        }
+      },
+      "B19013E": {
+        "estimate": {
+          "B19013E001": 37113.0
+        },
+        "error": {
+          "B19013E001": 16187.0
+        }
+      },
+      "B19013F": {
+        "estimate": {
+          "B19013F001": 37428.0
+        },
+        "error": {
+          "B19013F001": 1770.0
+        }
+      },
+      "B19013G": {
+        "estimate": {
+          "B19013G001": 48202.0
+        },
+        "error": {
+          "B19013G001": 3193.0
+        }
+      },
+      "B19013H": {
+        "estimate": {
+          "B19013H001": 55321.0
+        },
+        "error": {
+          "B19013H001": 662.0
+        }
+      },
+      "B19013I": {
+        "estimate": {
+          "B19013I001": 39180.0
+        },
+        "error": {
+          "B19013I001": 1080.0
+        }
+      }
+    },
+    "04000US06": {
+      "B19013": {
+        "estimate": {
+          "B19013001": 61933.0
+        },
+        "error": {
+          "B19013001": 238.0
+        }
+      },
+      "B19013A": {
+        "estimate": {
+          "B19013A001": 65070.0
+        },
+        "error": {
+          "B19013A001": 418.0
+        }
+      },
+      "B19013B": {
+        "estimate": {
+          "B19013B001": 42509.0
+        },
+        "error": {
+          "B19013B001": 1165.0
+        }
+      },
+      "B19013C": {
+        "estimate": {
+          "B19013C001": 45956.0
+        },
+        "error": {
+          "B19013C001": 2348.0
+        }
+      },
+      "B19013D": {
+        "estimate": {
+          "B19013D001": 80080.0
+        },
+        "error": {
+          "B19013D001": 1107.0
+        }
+      },
+      "B19013E": {
+        "estimate": {
+          "B19013E001": 58537.0
+        },
+        "error": {
+          "B19013E001": 5825.0
+        }
+      },
+      "B19013F": {
+        "estimate": {
+          "B19013F001": 46015.0
+        },
+        "error": {
+          "B19013F001": 722.0
+        }
+      },
+      "B19013G": {
+        "estimate": {
+          "B19013G001": 60587.0
+        },
+        "error": {
+          "B19013G001": 1368.0
+        }
+      },
+      "B19013H": {
+        "estimate": {
+          "B19013H001": 73017.0
+        },
+        "error": {
+          "B19013H001": 624.0
+        }
+      },
+      "B19013I": {
+        "estimate": {
+          "B19013I001": 47434.0
+        },
+        "error": {
+          "B19013I001": 478.0
+        }
+      }
+    },
+    "04000US08": {
+      "B19013": {
+        "estimate": {
+          "B19013001": 61303.0
+        },
+        "error": {
+          "B19013001": 487.0
+        }
+      },
+      "B19013A": {
+        "estimate": {
+          "B19013A001": 63790.0
+        },
+        "error": {
+          "B19013A001": 853.0
+        }
+      },
+      "B19013B": {
+        "estimate": {
+          "B19013B001": 41763.0
+        },
+        "error": {
+          "B19013B001": 2462.0
+        }
+      },
+      "B19013C": {
+        "estimate": {
+          "B19013C001": 47892.0
+        },
+        "error": {
+          "B19013C001": 6058.0
+        }
+      },
+      "B19013D": {
+        "estimate": {
+          "B19013D001": 60000.0
+        },
+        "error": {
+          "B19013D001": 4901.0
+        }
+      },
+      "B19013E": {
+        "estimate": {
+          "B19013E001": 51564.0
+        },
+        "error": {
+          "B19013E001": 32497.0
+        }
+      },
+      "B19013F": {
+        "estimate": {
+          "B19013F001": 40278.0
+        },
+        "error": {
+          "B19013F001": 4092.0
+        }
+      },
+      "B19013G": {
+        "estimate": {
+          "B19013G001": 50134.0
+        },
+        "error": {
+          "B19013G001": 2795.0
+        }
+      },
+      "B19013H": {
+        "estimate": {
+          "B19013H001": 67360.0
+        },
+        "error": {
+          "B19013H001": 772.0
+        }
+      },
+      "B19013I": {
+        "estimate": {
+          "B19013I001": 44174.0
+        },
+        "error": {
+          "B19013I001": 1575.0
+        }
+      }
+    },
+    "04000US09": {
+      "B19013": {
+        "estimate": {
+          "B19013001": 70048.0
+        },
+        "error": {
+          "B19013001": 828.0
+        }
+      },
+      "B19013A": {
+        "estimate": {
+          "B19013A001": 76008.0
+        },
+        "error": {
+          "B19013A001": 864.0
+        }
+      },
+      "B19013B": {
+        "estimate": {
+          "B19013B001": 45002.0
+        },
+        "error": {
+          "B19013B001": 3991.0
+        }
+      },
+      "B19013C": {
+        "estimate": {
+          "B19013C001": 25971.0
+        },
+        "error": {
+          "B19013C001": 19879.0
+        }
+      },
+      "B19013D": {
+        "estimate": {
+          "B19013D001": 88529.0
+        },
+        "error": {
+          "B19013D001": 5945.0
+        }
+      },
+      "B19013E": {
+        "estimate": {
+          "B19013E001": null
+        },
+        "error": {
+          "B19013E001": null
+        }
+      },
+      "B19013F": {
+        "estimate": {
+          "B19013F001": 34444.0
+        },
+        "error": {
+          "B19013F001": 4321.0
+        }
+      },
+      "B19013G": {
+        "estimate": {
+          "B19013G001": 52546.0
+        },
+        "error": {
+          "B19013G001": 6666.0
+        }
+      },
+      "B19013H": {
+        "estimate": {
+          "B19013H001": 78959.0
+        },
+        "error": {
+          "B19013H001": 1453.0
+        }
+      },
+      "B19013I": {
+        "estimate": {
+          "B19013I001": 39148.0
+        },
+        "error": {
+          "B19013I001": 2365.0
+        }
+      }
+    },
+    "04000US11": {
+      "B19013": {
+        "estimate": {
+          "B19013001": 71648.0
+        },
+        "error": {
+          "B19013001": 1996.0
+        }
+      },
+      "B19013A": {
+        "estimate": {
+          "B19013A001": 114747.0
+        },
+        "error": {
+          "B19013A001": 5103.0
+        }
+      },
+      "B19013B": {
+        "estimate": {
+          "B19013B001": 40739.0
+        },
+        "error": {
+          "B19013B001": 1796.0
+        }
+      },
+      "B19013C": {
+        "estimate": {
+          "B19013C001": null
+        },
+        "error": {
+          "B19013C001": null
+        }
+      },
+      "B19013D": {
+        "estimate": {
+          "B19013D001": 84466.0
+        },
+        "error": {
+          "B19013D001": 19755.0
+        }
+      },
+      "B19013E": {
+        "estimate": {
+          "B19013E001": null
+        },
+        "error": {
+          "B19013E001": null
+        }
+      },
+      "B19013F": {
+        "estimate": {
+          "B19013F001": 48019.0
+        },
+        "error": {
+          "B19013F001": 8090.0
+        }
+      },
+      "B19013G": {
+        "estimate": {
+          "B19013G001": 72691.0
+        },
+        "error": {
+          "B19013G001": 27195.0
+        }
+      },
+      "B19013H": {
+        "estimate": {
+          "B19013H001": 117134.0
+        },
+        "error": {
+          "B19013H001": 4932.0
+        }
+      },
+      "B19013I": {
+        "estimate": {
+          "B19013I001": 63065.0
+        },
+        "error": {
+          "B19013I001": 13111.0
+        }
+      }
+    },
+    "04000US10": {
+      "B19013": {
+        "estimate": {
+          "B19013001": 59716.0
+        },
+        "error": {
+          "B19013001": 1674.0
+        }
+      },
+      "B19013A": {
+        "estimate": {
+          "B19013A001": 64388.0
+        },
+        "error": {
+          "B19013A001": 2387.0
+        }
+      },
+      "B19013B": {
+        "estimate": {
+          "B19013B001": 45264.0
+        },
+        "error": {
+          "B19013B001": 2799.0
+        }
+      },
+      "B19013C": {
+        "estimate": {
+          "B19013C001": 40086.0
+        },
+        "error": {
+          "B19013C001": 24097.0
+        }
+      },
+      "B19013D": {
+        "estimate": {
+          "B19013D001": 85172.0
+        },
+        "error": {
+          "B19013D001": 16208.0
+        }
+      },
+      "B19013E": {
+        "estimate": {
+          "B19013E001": null
+        },
+        "error": {
+          "B19013E001": null
+        }
+      },
+      "B19013F": {
+        "estimate": {
+          "B19013F001": 40843.0
+        },
+        "error": {
+          "B19013F001": 6203.0
+        }
+      },
+      "B19013G": {
+        "estimate": {
+          "B19013G001": 49267.0
+        },
+        "error": {
+          "B19013G001": 5721.0
+        }
+      },
+      "B19013H": {
+        "estimate": {
+          "B19013H001": 65361.0
+        },
+        "error": {
+          "B19013H001": 1815.0
+        }
+      },
+      "B19013I": {
+        "estimate": {
+          "B19013I001": 50525.0
+        },
+        "error": {
+          "B19013I001": 2696.0
+        }
+      }
+    },
+    "04000US12": {
+      "B19013": {
+        "estimate": {
+          "B19013001": 47463.0
+        },
+        "error": {
+          "B19013001": 329.0
+        }
+      },
+      "B19013A": {
+        "estimate": {
+          "B19013A001": 50336.0
+        },
+        "error": {
+          "B19013A001": 302.0
+        }
+      },
+      "B19013B": {
+        "estimate": {
+          "B19013B001": 34563.0
+        },
+        "error": {
+          "B19013B001": 782.0
+        }
+      },
+      "B19013C": {
+        "estimate": {
+          "B19013C001": 35048.0
+        },
+        "error": {
+          "B19013C001": 7461.0
+        }
+      },
+      "B19013D": {
+        "estimate": {
+          "B19013D001": 57814.0
+        },
+        "error": {
+          "B19013D001": 4349.0
+        }
+      },
+      "B19013E": {
+        "estimate": {
+          "B19013E001": 47793.0
+        },
+        "error": {
+          "B19013E001": 11803.0
+        }
+      },
+      "B19013F": {
+        "estimate": {
+          "B19013F001": 39652.0
+        },
+        "error": {
+          "B19013F001": 2343.0
+        }
+      },
+      "B19013G": {
+        "estimate": {
+          "B19013G001": 42670.0
+        },
+        "error": {
+          "B19013G001": 2007.0
+        }
+      },
+      "B19013H": {
+        "estimate": {
+          "B19013H001": 52321.0
+        },
+        "error": {
+          "B19013H001": 336.0
+        }
+      },
+      "B19013I": {
+        "estimate": {
+          "B19013I001": 40903.0
+        },
+        "error": {
+          "B19013I001": 509.0
+        }
+      }
+    },
+    "04000US13": {
+      "B19013": {
+        "estimate": {
+          "B19013001": 49321.0
+        },
+        "error": {
+          "B19013001": 543.0
+        }
+      },
+      "B19013A": {
+        "estimate": {
+          "B19013A001": 56315.0
+        },
+        "error": {
+          "B19013A001": 583.0
+        }
+      },
+      "B19013B": {
+        "estimate": {
+          "B19013B001": 36521.0
+        },
+        "error": {
+          "B19013B001": 603.0
+        }
+      },
+      "B19013C": {
+        "estimate": {
+          "B19013C001": 36429.0
+        },
+        "error": {
+          "B19013C001": 7207.0
+        }
+      },
+      "B19013D": {
+        "estimate": {
+          "B19013D001": 67044.0
+        },
+        "error": {
+          "B19013D001": 4222.0
+        }
+      },
+      "B19013E": {
+        "estimate": {
+          "B19013E001": 61760.0
+        },
+        "error": {
+          "B19013E001": 19622.0
+        }
+      },
+      "B19013F": {
+        "estimate": {
+          "B19013F001": 37174.0
+        },
+        "error": {
+          "B19013F001": 3334.0
+        }
+      },
+      "B19013G": {
+        "estimate": {
+          "B19013G001": 45775.0
+        },
+        "error": {
+          "B19013G001": 4444.0
+        }
+      },
+      "B19013H": {
+        "estimate": {
+          "B19013H001": 57555.0
+        },
+        "error": {
+          "B19013H001": 763.0
+        }
+      },
+      "B19013I": {
+        "estimate": {
+          "B19013I001": 39492.0
+        },
+        "error": {
+          "B19013I001": 1985.0
+        }
+      }
+    },
+    "04000US15": {
+      "B19013": {
+        "estimate": {
+          "B19013001": 69592.0
+        },
+        "error": {
+          "B19013001": 1456.0
+        }
+      },
+      "B19013A": {
+        "estimate": {
+          "B19013A001": 68415.0
+        },
+        "error": {
+          "B19013A001": 3263.0
+        }
+      },
+      "B19013B": {
+        "estimate": {
+          "B19013B001": 66343.0
+        },
+        "error": {
+          "B19013B001": 10611.0
+        }
+      },
+      "B19013C": {
+        "estimate": {
+          "B19013C001": 48567.0
+        },
+        "error": {
+          "B19013C001": 13868.0
+        }
+      },
+      "B19013D": {
+        "estimate": {
+          "B19013D001": 74723.0
+        },
+        "error": {
+          "B19013D001": 2049.0
+        }
+      },
+      "B19013E": {
+        "estimate": {
+          "B19013E001": 56766.0
+        },
+        "error": {
+          "B19013E001": 3783.0
+        }
+      },
+      "B19013F": {
+        "estimate": {
+          "B19013F001": 47059.0
+        },
+        "error": {
+          "B19013F001": 3509.0
+        }
+      },
+      "B19013G": {
+        "estimate": {
+          "B19013G001": 69801.0
+        },
+        "error": {
+          "B19013G001": 3252.0
+        }
+      },
+      "B19013H": {
+        "estimate": {
+          "B19013H001": 70259.0
+        },
+        "error": {
+          "B19013H001": 2593.0
+        }
+      },
+      "B19013I": {
+        "estimate": {
+          "B19013I001": 58683.0
+        },
+        "error": {
+          "B19013I001": 6111.0
+        }
+      }
+    },
+    "04000US19": {
+      "B19013": {
+        "estimate": {
+          "B19013001": 53712.0
+        },
+        "error": {
+          "B19013001": 761.0
+        }
+      },
+      "B19013A": {
+        "estimate": {
+          "B19013A001": 54863.0
+        },
+        "error": {
+          "B19013A001": 741.0
+        }
+      },
+      "B19013B": {
+        "estimate": {
+          "B19013B001": 28883.0
+        },
+        "error": {
+          "B19013B001": 3935.0
+        }
+      },
+      "B19013C": {
+        "estimate": {
+          "B19013C001": 33981.0
+        },
+        "error": {
+          "B19013C001": 18087.0
+        }
+      },
+      "B19013D": {
+        "estimate": {
+          "B19013D001": 61271.0
+        },
+        "error": {
+          "B19013D001": 2225.0
+        }
+      },
+      "B19013E": {
+        "estimate": {
+          "B19013E001": 49112.0
+        },
+        "error": {
+          "B19013E001": 28195.0
+        }
+      },
+      "B19013F": {
+        "estimate": {
+          "B19013F001": 45986.0
+        },
+        "error": {
+          "B19013F001": 13103.0
+        }
+      },
+      "B19013G": {
+        "estimate": {
+          "B19013G001": 35681.0
+        },
+        "error": {
+          "B19013G001": 3056.0
+        }
+      },
+      "B19013H": {
+        "estimate": {
+          "B19013H001": 55243.0
+        },
+        "error": {
+          "B19013H001": 705.0
+        }
+      },
+      "B19013I": {
+        "estimate": {
+          "B19013I001": 42447.0
+        },
+        "error": {
+          "B19013I001": 4370.0
+        }
+      }
+    },
+    "04000US16": {
+      "B19013": {
+        "estimate": {
+          "B19013001": 47861.0
+        },
+        "error": {
+          "B19013001": 1275.0
+        }
+      },
+      "B19013A": {
+        "estimate": {
+          "B19013A001": 48503.0
+        },
+        "error": {
+          "B19013A001": 1295.0
+        }
+      },
+      "B19013B": {
+        "estimate": {
+          "B19013B001": 30189.0
+        },
+        "error": {
+          "B19013B001": 8234.0
+        }
+      },
+      "B19013C": {
+        "estimate": {
+          "B19013C001": 42558.0
+        },
+        "error": {
+          "B19013C001": 12899.0
+        }
+      },
+      "B19013D": {
+        "estimate": {
+          "B19013D001": 53695.0
+        },
+        "error": {
+          "B19013D001": 9789.0
+        }
+      },
+      "B19013E": {
+        "estimate": {
+          "B19013E001": 35906.0
+        },
+        "error": {
+          "B19013E001": 4556.0
+        }
+      },
+      "B19013F": {
+        "estimate": {
+          "B19013F001": 37185.0
+        },
+        "error": {
+          "B19013F001": 5102.0
+        }
+      },
+      "B19013G": {
+        "estimate": {
+          "B19013G001": 34297.0
+        },
+        "error": {
+          "B19013G001": 6880.0
+        }
+      },
+      "B19013H": {
+        "estimate": {
+          "B19013H001": 49536.0
+        },
+        "error": {
+          "B19013H001": 1343.0
+        }
+      },
+      "B19013I": {
+        "estimate": {
+          "B19013I001": 39070.0
+        },
+        "error": {
+          "B19013I001": 2666.0
+        }
+      }
+    },
+    "04000US17": {
+      "B19013": {
+        "estimate": {
+          "B19013001": 57444.0
+        },
+        "error": {
+          "B19013001": 429.0
+        }
+      },
+      "B19013A": {
+        "estimate": {
+          "B19013A001": 62243.0
+        },
+        "error": {
+          "B19013A001": 378.0
+        }
+      },
+      "B19013B": {
+        "estimate": {
+          "B19013B001": 33369.0
+        },
+        "error": {
+          "B19013B001": 1109.0
+        }
+      },
+      "B19013C": {
+        "estimate": {
+          "B19013C001": 37049.0
+        },
+        "error": {
+          "B19013C001": 6584.0
+        }
+      },
+      "B19013D": {
+        "estimate": {
+          "B19013D001": 75908.0
+        },
+        "error": {
+          "B19013D001": 3195.0
+        }
+      },
+      "B19013E": {
+        "estimate": {
+          "B19013E001": 77540.0
+        },
+        "error": {
+          "B19013E001": 51457.0
+        }
+      },
+      "B19013F": {
+        "estimate": {
+          "B19013F001": 46104.0
+        },
+        "error": {
+          "B19013F001": 1218.0
+        }
+      },
+      "B19013G": {
+        "estimate": {
+          "B19013G001": 47687.0
+        },
+        "error": {
+          "B19013G001": 4875.0
+        }
+      },
+      "B19013H": {
+        "estimate": {
+          "B19013H001": 64349.0
+        },
+        "error": {
+          "B19013H001": 611.0
+        }
+      },
+      "B19013I": {
+        "estimate": {
+          "B19013I001": 47466.0
+        },
+        "error": {
+          "B19013I001": 972.0
+        }
+      }
+    },
+    "04000US18": {
+      "B19013": {
+        "estimate": {
+          "B19013001": 49446.0
+        },
+        "error": {
+          "B19013001": 487.0
+        }
+      },
+      "B19013A": {
+        "estimate": {
+          "B19013A001": 51814.0
+        },
+        "error": {
+          "B19013A001": 383.0
+        }
+      },
+      "B19013B": {
+        "estimate": {
+          "B19013B001": 30112.0
+        },
+        "error": {
+          "B19013B001": 1343.0
+        }
+      },
+      "B19013C": {
+        "estimate": {
+          "B19013C001": 28343.0
+        },
+        "error": {
+          "B19013C001": 6860.0
+        }
+      },
+      "B19013D": {
+        "estimate": {
+          "B19013D001": 56238.0
+        },
+        "error": {
+          "B19013D001": 5526.0
+        }
+      },
+      "B19013E": {
+        "estimate": {
+          "B19013E001": 30250.0
+        },
+        "error": {
+          "B19013E001": 19750.0
+        }
+      },
+      "B19013F": {
+        "estimate": {
+          "B19013F001": 38922.0
+        },
+        "error": {
+          "B19013F001": 4476.0
+        }
+      },
+      "B19013G": {
+        "estimate": {
+          "B19013G001": 35339.0
+        },
+        "error": {
+          "B19013G001": 6397.0
+        }
+      },
+      "B19013H": {
+        "estimate": {
+          "B19013H001": 52105.0
+        },
+        "error": {
+          "B19013H001": 390.0
+        }
+      },
+      "B19013I": {
+        "estimate": {
+          "B19013I001": 41125.0
+        },
+        "error": {
+          "B19013I001": 2443.0
+        }
+      }
+    },
+    "04000US20": {
+      "B19013": {
+        "estimate": {
+          "B19013001": 52504.0
+        },
+        "error": {
+          "B19013001": 706.0
+        }
+      },
+      "B19013A": {
+        "estimate": {
+          "B19013A001": 54702.0
+        },
+        "error": {
+          "B19013A001": 799.0
+        }
+      },
+      "B19013B": {
+        "estimate": {
+          "B19013B001": 32057.0
+        },
+        "error": {
+          "B19013B001": 2570.0
+        }
+      },
+      "B19013C": {
+        "estimate": {
+          "B19013C001": 42978.0
+        },
+        "error": {
+          "B19013C001": 7306.0
+        }
+      },
+      "B19013D": {
+        "estimate": {
+          "B19013D001": 63220.0
+        },
+        "error": {
+          "B19013D001": 7452.0
+        }
+      },
+      "B19013E": {
+        "estimate": {
+          "B19013E001": null
+        },
+        "error": {
+          "B19013E001": null
+        }
+      },
+      "B19013F": {
+        "estimate": {
+          "B19013F001": 40960.0
+        },
+        "error": {
+          "B19013F001": 3684.0
+        }
+      },
+      "B19013G": {
+        "estimate": {
+          "B19013G001": 38214.0
+        },
+        "error": {
+          "B19013G001": 5860.0
+        }
+      },
+      "B19013H": {
+        "estimate": {
+          "B19013H001": 56010.0
+        },
+        "error": {
+          "B19013H001": 713.0
+        }
+      },
+      "B19013I": {
+        "estimate": {
+          "B19013I001": 39869.0
+        },
+        "error": {
+          "B19013I001": 2524.0
+        }
+      }
+    },
+    "04000US21": {
+      "B19013": {
+        "estimate": {
+          "B19013001": 42958.0
+        },
+        "error": {
+          "B19013001": 697.0
+        }
+      },
+      "B19013A": {
+        "estimate": {
+          "B19013A001": 45020.0
+        },
+        "error": {
+          "B19013A001": 646.0
+        }
+      },
+      "B19013B": {
+        "estimate": {
+          "B19013B001": 26735.0
+        },
+        "error": {
+          "B19013B001": 1277.0
+        }
+      },
+      "B19013C": {
+        "estimate": {
+          "B19013C001": 26857.0
+        },
+        "error": {
+          "B19013C001": 5774.0
+        }
+      },
+      "B19013D": {
+        "estimate": {
+          "B19013D001": 60493.0
+        },
+        "error": {
+          "B19013D001": 5828.0
+        }
+      },
+      "B19013E": {
+        "estimate": {
+          "B19013E001": 27076.0
+        },
+        "error": {
+          "B19013E001": 21664.0
+        }
+      },
+      "B19013F": {
+        "estimate": {
+          "B19013F001": 32914.0
+        },
+        "error": {
+          "B19013F001": 4731.0
+        }
+      },
+      "B19013G": {
+        "estimate": {
+          "B19013G001": 38004.0
+        },
+        "error": {
+          "B19013G001": 7241.0
+        }
+      },
+      "B19013H": {
+        "estimate": {
+          "B19013H001": 45179.0
+        },
+        "error": {
+          "B19013H001": 627.0
+        }
+      },
+      "B19013I": {
+        "estimate": {
+          "B19013I001": 33991.0
+        },
+        "error": {
+          "B19013I001": 4160.0
+        }
+      }
+    },
+    "04000US22": {
+      "B19013": {
+        "estimate": {
+          "B19013001": 44555.0
+        },
+        "error": {
+          "B19013001": 738.0
+        }
+      },
+      "B19013A": {
+        "estimate": {
+          "B19013A001": 54290.0
+        },
+        "error": {
+          "B19013A001": 988.0
+        }
+      },
+      "B19013B": {
+        "estimate": {
+          "B19013B001": 27655.0
+        },
+        "error": {
+          "B19013B001": 904.0
+        }
+      },
+      "B19013C": {
+        "estimate": {
+          "B19013C001": 39161.0
+        },
+        "error": {
+          "B19013C001": 7119.0
+        }
+      },
+      "B19013D": {
+        "estimate": {
+          "B19013D001": 63293.0
+        },
+        "error": {
+          "B19013D001": 4877.0
+        }
+      },
+      "B19013E": {
+        "estimate": {
+          "B19013E001": 55224.0
+        },
+        "error": {
+          "B19013E001": 26772.0
+        }
+      },
+      "B19013F": {
+        "estimate": {
+          "B19013F001": 39048.0
+        },
+        "error": {
+          "B19013F001": 6584.0
+        }
+      },
+      "B19013G": {
+        "estimate": {
+          "B19013G001": 38985.0
+        },
+        "error": {
+          "B19013G001": 8987.0
+        }
+      },
+      "B19013H": {
+        "estimate": {
+          "B19013H001": 54940.0
+        },
+        "error": {
+          "B19013H001": 981.0
+        }
+      },
+      "B19013I": {
+        "estimate": {
+          "B19013I001": 44938.0
+        },
+        "error": {
+          "B19013I001": 2972.0
+        }
+      }
+    },
+    "04000US25": {
+      "B19013": {
+        "estimate": {
+          "B19013001": 69160.0
+        },
+        "error": {
+          "B19013001": 957.0
+        }
+      },
+      "B19013A": {
+        "estimate": {
+          "B19013A001": 73614.0
+        },
+        "error": {
+          "B19013A001": 938.0
+        }
+      },
+      "B19013B": {
+        "estimate": {
+          "B19013B001": 42114.0
+        },
+        "error": {
+          "B19013B001": 2137.0
+        }
+      },
+      "B19013C": {
+        "estimate": {
+          "B19013C001": 41875.0
+        },
+        "error": {
+          "B19013C001": 16570.0
+        }
+      },
+      "B19013D": {
+        "estimate": {
+          "B19013D001": 81505.0
+        },
+        "error": {
+          "B19013D001": 2952.0
+        }
+      },
+      "B19013E": {
+        "estimate": {
+          "B19013E001": 82692.0
+        },
+        "error": {
+          "B19013E001": 11553.0
+        }
+      },
+      "B19013F": {
+        "estimate": {
+          "B19013F001": 30768.0
+        },
+        "error": {
+          "B19013F001": 1512.0
+        }
+      },
+      "B19013G": {
+        "estimate": {
+          "B19013G001": 49743.0
+        },
+        "error": {
+          "B19013G001": 3619.0
+        }
+      },
+      "B19013H": {
+        "estimate": {
+          "B19013H001": 75598.0
+        },
+        "error": {
+          "B19013H001": 672.0
+        }
+      },
+      "B19013I": {
+        "estimate": {
+          "B19013I001": 34507.0
+        },
+        "error": {
+          "B19013I001": 1948.0
+        }
+      }
+    },
+    "04000US24": {
+      "B19013": {
+        "estimate": {
+          "B19013001": 73971.0
+        },
+        "error": {
+          "B19013001": 867.0
+        }
+      },
+      "B19013A": {
+        "estimate": {
+          "B19013A001": 81915.0
+        },
+        "error": {
+          "B19013A001": 919.0
+        }
+      },
+      "B19013B": {
+        "estimate": {
+          "B19013B001": 59346.0
+        },
+        "error": {
+          "B19013B001": 1596.0
+        }
+      },
+      "B19013C": {
+        "estimate": {
+          "B19013C001": 52889.0
+        },
+        "error": {
+          "B19013C001": 14951.0
+        }
+      },
+      "B19013D": {
+        "estimate": {
+          "B19013D001": 94344.0
+        },
+        "error": {
+          "B19013D001": 4022.0
+        }
+      },
+      "B19013E": {
+        "estimate": {
+          "B19013E001": 71075.0
+        },
+        "error": {
+          "B19013E001": 15307.0
+        }
+      },
+      "B19013F": {
+        "estimate": {
+          "B19013F001": 58343.0
+        },
+        "error": {
+          "B19013F001": 4148.0
+        }
+      },
+      "B19013G": {
+        "estimate": {
+          "B19013G001": 71686.0
+        },
+        "error": {
+          "B19013G001": 6451.0
+        }
+      },
+      "B19013H": {
+        "estimate": {
+          "B19013H001": 82846.0
+        },
+        "error": {
+          "B19013H001": 1279.0
+        }
+      },
+      "B19013I": {
+        "estimate": {
+          "B19013I001": 63020.0
+        },
+        "error": {
+          "B19013I001": 3545.0
+        }
+      }
+    },
+    "04000US23": {
+      "B19013": {
+        "estimate": {
+          "B19013001": 49462.0
+        },
+        "error": {
+          "B19013001": 1112.0
+        }
+      },
+      "B19013A": {
+        "estimate": {
+          "B19013A001": 50077.0
+        },
+        "error": {
+          "B19013A001": 905.0
+        }
+      },
+      "B19013B": {
+        "estimate": {
+          "B19013B001": 16760.0
+        },
+        "error": {
+          "B19013B001": 12982.0
+        }
+      },
+      "B19013C": {
+        "estimate": {
+          "B19013C001": 30215.0
+        },
+        "error": {
+          "B19013C001": 9328.0
+        }
+      },
+      "B19013D": {
+        "estimate": {
+          "B19013D001": 41731.0
+        },
+        "error": {
+          "B19013D001": 28710.0
+        }
+      },
+      "B19013E": {
+        "estimate": {
+          "B19013E001": null
+        },
+        "error": {
+          "B19013E001": null
+        }
+      },
+      "B19013F": {
+        "estimate": {
+          "B19013F001": 62188.0
+        },
+        "error": {
+          "B19013F001": 25142.0
+        }
+      },
+      "B19013G": {
+        "estimate": {
+          "B19013G001": 32677.0
+        },
+        "error": {
+          "B19013G001": 5723.0
+        }
+      },
+      "B19013H": {
+        "estimate": {
+          "B19013H001": 50041.0
+        },
+        "error": {
+          "B19013H001": 944.0
+        }
+      },
+      "B19013I": {
+        "estimate": {
+          "B19013I001": 52477.0
+        },
+        "error": {
+          "B19013I001": 13726.0
+        }
+      }
+    },
+    "04000US26": {
+      "B19013": {
+        "estimate": {
+          "B19013001": 49847.0
+        },
+        "error": {
+          "B19013001": 385.0
+        }
+      },
+      "B19013A": {
+        "estimate": {
+          "B19013A001": 53174.0
+        },
+        "error": {
+          "B19013A001": 508.0
+        }
+      },
+      "B19013B": {
+        "estimate": {
+          "B19013B001": 29697.0
+        },
+        "error": {
+          "B19013B001": 846.0
+        }
+      },
+      "B19013C": {
+        "estimate": {
+          "B19013C001": 39432.0
+        },
+        "error": {
+          "B19013C001": 4700.0
+        }
+      },
+      "B19013D": {
+        "estimate": {
+          "B19013D001": 72206.0
+        },
+        "error": {
+          "B19013D001": 3603.0
+        }
+      },
+      "B19013E": {
+        "estimate": {
+          "B19013E001": null
+        },
+        "error": {
+          "B19013E001": null
+        }
+      },
+      "B19013F": {
+        "estimate": {
+          "B19013F001": 41522.0
+        },
+        "error": {
+          "B19013F001": 4799.0
+        }
+      },
+      "B19013G": {
+        "estimate": {
+          "B19013G001": 33040.0
+        },
+        "error": {
+          "B19013G001": 2961.0
+        }
+      },
+      "B19013H": {
+        "estimate": {
+          "B19013H001": 53496.0
+        },
+        "error": {
+          "B19013H001": 497.0
+        }
+      },
+      "B19013I": {
+        "estimate": {
+          "B19013I001": 42649.0
+        },
+        "error": {
+          "B19013I001": 1934.0
+        }
+      }
+    },
+    "04000US27": {
+      "B19013": {
+        "estimate": {
+          "B19013001": 61481.0
+        },
+        "error": {
+          "B19013001": 471.0
+        }
+      },
+      "B19013A": {
+        "estimate": {
+          "B19013A001": 64281.0
+        },
+        "error": {
+          "B19013A001": 802.0
+        }
+      },
+      "B19013B": {
+        "estimate": {
+          "B19013B001": 27026.0
+        },
+        "error": {
+          "B19013B001": 2683.0
+        }
+      },
+      "B19013C": {
+        "estimate": {
+          "B19013C001": 32764.0
+        },
+        "error": {
+          "B19013C001": 3541.0
+        }
+      },
+      "B19013D": {
+        "estimate": {
+          "B19013D001": 67944.0
+        },
+        "error": {
+          "B19013D001": 4505.0
+        }
+      },
+      "B19013E": {
+        "estimate": {
+          "B19013E001": 52995.0
+        },
+        "error": {
+          "B19013E001": 39583.0
+        }
+      },
+      "B19013F": {
+        "estimate": {
+          "B19013F001": 40064.0
+        },
+        "error": {
+          "B19013F001": 4075.0
+        }
+      },
+      "B19013G": {
+        "estimate": {
+          "B19013G001": 43628.0
+        },
+        "error": {
+          "B19013G001": 5159.0
+        }
+      },
+      "B19013H": {
+        "estimate": {
+          "B19013H001": 64824.0
+        },
+        "error": {
+          "B19013H001": 768.0
+        }
+      },
+      "B19013I": {
+        "estimate": {
+          "B19013I001": 42060.0
+        },
+        "error": {
+          "B19013I001": 2718.0
+        }
+      }
+    },
+    "04000US29": {
+      "B19013": {
+        "estimate": {
+          "B19013001": 48363.0
+        },
+        "error": {
+          "B19013001": 567.0
+        }
+      },
+      "B19013A": {
+        "estimate": {
+          "B19013A001": 51259.0
+        },
+        "error": {
+          "B19013A001": 434.0
+        }
+      },
+      "B19013B": {
+        "estimate": {
+          "B19013B001": 31617.0
+        },
+        "error": {
+          "B19013B001": 1038.0
+        }
+      },
+      "B19013C": {
+        "estimate": {
+          "B19013C001": 32347.0
+        },
+        "error": {
+          "B19013C001": 4993.0
+        }
+      },
+      "B19013D": {
+        "estimate": {
+          "B19013D001": 63179.0
+        },
+        "error": {
+          "B19013D001": 6331.0
+        }
+      },
+      "B19013E": {
+        "estimate": {
+          "B19013E001": 87851.0
+        },
+        "error": {
+          "B19013E001": 72910.0
+        }
+      },
+      "B19013F": {
+        "estimate": {
+          "B19013F001": 27683.0
+        },
+        "error": {
+          "B19013F001": 5431.0
+        }
+      },
+      "B19013G": {
+        "estimate": {
+          "B19013G001": 37676.0
+        },
+        "error": {
+          "B19013G001": 4607.0
+        }
+      },
+      "B19013H": {
+        "estimate": {
+          "B19013H001": 51383.0
+        },
+        "error": {
+          "B19013H001": 441.0
+        }
+      },
+      "B19013I": {
+        "estimate": {
+          "B19013I001": 39724.0
+        },
+        "error": {
+          "B19013I001": 3729.0
+        }
+      }
+    },
+    "04000US28": {
+      "B19013": {
+        "estimate": {
+          "B19013001": 39680.0
+        },
+        "error": {
+          "B19013001": 773.0
+        }
+      },
+      "B19013A": {
+        "estimate": {
+          "B19013A001": 48591.0
+        },
+        "error": {
+          "B19013A001": 1185.0
+        }
+      },
+      "B19013B": {
+        "estimate": {
+          "B19013B001": 27252.0
+        },
+        "error": {
+          "B19013B001": 678.0
+        }
+      },
+      "B19013C": {
+        "estimate": {
+          "B19013C001": 37370.0
+        },
+        "error": {
+          "B19013C001": 9772.0
+        }
+      },
+      "B19013D": {
+        "estimate": {
+          "B19013D001": 47114.0
+        },
+        "error": {
+          "B19013D001": 17860.0
+        }
+      },
+      "B19013E": {
+        "estimate": {
+          "B19013E001": null
+        },
+        "error": {
+          "B19013E001": null
+        }
+      },
+      "B19013F": {
+        "estimate": {
+          "B19013F001": 46947.0
+        },
+        "error": {
+          "B19013F001": 3847.0
+        }
+      },
+      "B19013G": {
+        "estimate": {
+          "B19013G001": 32218.0
+        },
+        "error": {
+          "B19013G001": 7033.0
+        }
+      },
+      "B19013H": {
+        "estimate": {
+          "B19013H001": 48844.0
+        },
+        "error": {
+          "B19013H001": 1222.0
+        }
+      },
+      "B19013I": {
+        "estimate": {
+          "B19013I001": 41723.0
+        },
+        "error": {
+          "B19013I001": 3287.0
+        }
+      }
+    },
+    "04000US30": {
+      "B19013": {
+        "estimate": {
+          "B19013001": 46328.0
+        },
+        "error": {
+          "B19013001": 1217.0
+        }
+      },
+      "B19013A": {
+        "estimate": {
+          "B19013A001": 47651.0
+        },
+        "error": {
+          "B19013A001": 1314.0
+        }
+      },
+      "B19013B": {
+        "estimate": {
+          "B19013B001": 23920.0
+        },
+        "error": {
+          "B19013B001": 4968.0
+        }
+      },
+      "B19013C": {
+        "estimate": {
+          "B19013C001": 27937.0
+        },
+        "error": {
+          "B19013C001": 3569.0
+        }
+      },
+      "B19013D": {
+        "estimate": {
+          "B19013D001": 31865.0
+        },
+        "error": {
+          "B19013D001": 9315.0
+        }
+      },
+      "B19013E": {
+        "estimate": {
+          "B19013E001": null
+        },
+        "error": {
+          "B19013E001": null
+        }
+      },
+      "B19013F": {
+        "estimate": {
+          "B19013F001": 56198.0
+        },
+        "error": {
+          "B19013F001": 20622.0
+        }
+      },
+      "B19013G": {
+        "estimate": {
+          "B19013G001": 40757.0
+        },
+        "error": {
+          "B19013G001": 11193.0
+        }
+      },
+      "B19013H": {
+        "estimate": {
+          "B19013H001": 48005.0
+        },
+        "error": {
+          "B19013H001": 1303.0
+        }
+      },
+      "B19013I": {
+        "estimate": {
+          "B19013I001": 36281.0
+        },
+        "error": {
+          "B19013I001": 4044.0
+        }
+      }
+    },
+    "04000US37": {
+      "B19013": {
+        "estimate": {
+          "B19013001": 46556.0
+        },
+        "error": {
+          "B19013001": 381.0
+        }
+      },
+      "B19013A": {
+        "estimate": {
+          "B19013A001": 51707.0
+        },
+        "error": {
+          "B19013A001": 432.0
+        }
+      },
+      "B19013B": {
+        "estimate": {
+          "B19013B001": 33022.0
+        },
+        "error": {
+          "B19013B001": 884.0
+        }
+      },
+      "B19013C": {
+        "estimate": {
+          "B19013C001": 33094.0
+        },
+        "error": {
+          "B19013C001": 1975.0
+        }
+      },
+      "B19013D": {
+        "estimate": {
+          "B19013D001": 69651.0
+        },
+        "error": {
+          "B19013D001": 4276.0
+        }
+      },
+      "B19013E": {
+        "estimate": {
+          "B19013E001": 41953.0
+        },
+        "error": {
+          "B19013E001": 12785.0
+        }
+      },
+      "B19013F": {
+        "estimate": {
+          "B19013F001": 29978.0
+        },
+        "error": {
+          "B19013F001": 1854.0
+        }
+      },
+      "B19013G": {
+        "estimate": {
+          "B19013G001": 37547.0
+        },
+        "error": {
+          "B19013G001": 3442.0
+        }
+      },
+      "B19013H": {
+        "estimate": {
+          "B19013H001": 52759.0
+        },
+        "error": {
+          "B19013H001": 588.0
+        }
+      },
+      "B19013I": {
+        "estimate": {
+          "B19013I001": 32463.0
+        },
+        "error": {
+          "B19013I001": 1768.0
+        }
+      }
+    },
+    "04000US38": {
+      "B19013": {
+        "estimate": {
+          "B19013001": 59029.0
+        },
+        "error": {
+          "B19013001": 1681.0
+        }
+      },
+      "B19013A": {
+        "estimate": {
+          "B19013A001": 61675.0
+        },
+        "error": {
+          "B19013A001": 1145.0
+        }
+      },
+      "B19013B": {
+        "estimate": {
+          "B19013B001": 23319.0
+        },
+        "error": {
+          "B19013B001": 7892.0
+        }
+      },
+      "B19013C": {
+        "estimate": {
+          "B19013C001": 30495.0
+        },
+        "error": {
+          "B19013C001": 4933.0
+        }
+      },
+      "B19013D": {
+        "estimate": {
+          "B19013D001": 56114.0
+        },
+        "error": {
+          "B19013D001": 32764.0
+        }
+      },
+      "B19013E": {
+        "estimate": {
+          "B19013E001": null
+        },
+        "error": {
+          "B19013E001": null
+        }
+      },
+      "B19013F": {
+        "estimate": {
+          "B19013F001": 61565.0
+        },
+        "error": {
+          "B19013F001": 16069.0
+        }
+      },
+      "B19013G": {
+        "estimate": {
+          "B19013G001": 41838.0
+        },
+        "error": {
+          "B19013G001": 12036.0
+        }
+      },
+      "B19013H": {
+        "estimate": {
+          "B19013H001": 61864.0
+        },
+        "error": {
+          "B19013H001": 1182.0
+        }
+      },
+      "B19013I": {
+        "estimate": {
+          "B19013I001": 44516.0
+        },
+        "error": {
+          "B19013I001": 10601.0
+        }
+      }
+    },
+    "04000US31": {
+      "B19013": {
+        "estimate": {
+          "B19013001": 52686.0
+        },
+        "error": {
+          "B19013001": 688.0
+        }
+      },
+      "B19013A": {
+        "estimate": {
+          "B19013A001": 54628.0
+        },
+        "error": {
+          "B19013A001": 726.0
+        }
+      },
+      "B19013B": {
+        "estimate": {
+          "B19013B001": 30774.0
+        },
+        "error": {
+          "B19013B001": 1856.0
+        }
+      },
+      "B19013C": {
+        "estimate": {
+          "B19013C001": 21153.0
+        },
+        "error": {
+          "B19013C001": 7746.0
+        }
+      },
+      "B19013D": {
+        "estimate": {
+          "B19013D001": 45694.0
+        },
+        "error": {
+          "B19013D001": 6768.0
+        }
+      },
+      "B19013E": {
+        "estimate": {
+          "B19013E001": 68396.0
+        },
+        "error": {
+          "B19013E001": 47037.0
+        }
+      },
+      "B19013F": {
+        "estimate": {
+          "B19013F001": 42465.0
+        },
+        "error": {
+          "B19013F001": 6297.0
+        }
+      },
+      "B19013G": {
+        "estimate": {
+          "B19013G001": 38565.0
+        },
+        "error": {
+          "B19013G001": 9133.0
+        }
+      },
+      "B19013H": {
+        "estimate": {
+          "B19013H001": 55976.0
+        },
+        "error": {
+          "B19013H001": 718.0
+        }
+      },
+      "B19013I": {
+        "estimate": {
+          "B19013I001": 40050.0
+        },
+        "error": {
+          "B19013I001": 1997.0
+        }
+      }
+    },
+    "04000US33": {
+      "B19013": {
+        "estimate": {
+          "B19013001": 66532.0
+        },
+        "error": {
+          "B19013001": 1297.0
+        }
+      },
+      "B19013A": {
+        "estimate": {
+          "B19013A001": 66896.0
+        },
+        "error": {
+          "B19013A001": 1393.0
+        }
+      },
+      "B19013B": {
+        "estimate": {
+          "B19013B001": 47706.0
+        },
+        "error": {
+          "B19013B001": 8750.0
+        }
+      },
+      "B19013C": {
+        "estimate": {
+          "B19013C001": 30905.0
+        },
+        "error": {
+          "B19013C001": 21419.0
+        }
+      },
+      "B19013D": {
+        "estimate": {
+          "B19013D001": 77436.0
+        },
+        "error": {
+          "B19013D001": 6160.0
+        }
+      },
+      "B19013E": {
+        "estimate": {
+          "B19013E001": null
+        },
+        "error": {
+          "B19013E001": null
+        }
+      },
+      "B19013F": {
+        "estimate": {
+          "B19013F001": 29071.0
+        },
+        "error": {
+          "B19013F001": 11596.0
+        }
+      },
+      "B19013G": {
+        "estimate": {
+          "B19013G001": 55106.0
+        },
+        "error": {
+          "B19013G001": 16011.0
+        }
+      },
+      "B19013H": {
+        "estimate": {
+          "B19013H001": 67318.0
+        },
+        "error": {
+          "B19013H001": 1531.0
+        }
+      },
+      "B19013I": {
+        "estimate": {
+          "B19013I001": 44520.0
+        },
+        "error": {
+          "B19013I001": 8576.0
+        }
+      }
+    },
+    "04000US34": {
+      "B19013": {
+        "estimate": {
+          "B19013001": 71919.0
+        },
+        "error": {
+          "B19013001": 438.0
+        }
+      },
+      "B19013A": {
+        "estimate": {
+          "B19013A001": 77816.0
+        },
+        "error": {
+          "B19013A001": 983.0
+        }
+      },
+      "B19013B": {
+        "estimate": {
+          "B19013B001": 46342.0
+        },
+        "error": {
+          "B19013B001": 1453.0
+        }
+      },
+      "B19013C": {
+        "estimate": {
+          "B19013C001": 35206.0
+        },
+        "error": {
+          "B19013C001": 10687.0
+        }
+      },
+      "B19013D": {
+        "estimate": {
+          "B19013D001": 104045.0
+        },
+        "error": {
+          "B19013D001": 4530.0
+        }
+      },
+      "B19013E": {
+        "estimate": {
+          "B19013E001": 47083.0
+        },
+        "error": {
+          "B19013E001": 31699.0
+        }
+      },
+      "B19013F": {
+        "estimate": {
+          "B19013F001": 44072.0
+        },
+        "error": {
+          "B19013F001": 1865.0
+        }
+      },
+      "B19013G": {
+        "estimate": {
+          "B19013G001": 60607.0
+        },
+        "error": {
+          "B19013G001": 7379.0
+        }
+      },
+      "B19013H": {
+        "estimate": {
+          "B19013H001": 82182.0
+        },
+        "error": {
+          "B19013H001": 728.0
+        }
+      },
+      "B19013I": {
+        "estimate": {
+          "B19013I001": 47794.0
+        },
+        "error": {
+          "B19013I001": 1742.0
+        }
+      }
+    },
+    "04000US35": {
+      "B19013": {
+        "estimate": {
+          "B19013001": 44803.0
+        },
+        "error": {
+          "B19013001": 849.0
+        }
+      },
+      "B19013A": {
+        "estimate": {
+          "B19013A001": 48048.0
+        },
+        "error": {
+          "B19013A001": 1171.0
+        }
+      },
+      "B19013B": {
+        "estimate": {
+          "B19013B001": 37773.0
+        },
+        "error": {
+          "B19013B001": 9392.0
+        }
+      },
+      "B19013C": {
+        "estimate": {
+          "B19013C001": 31592.0
+        },
+        "error": {
+          "B19013C001": 1827.0
+        }
+      },
+      "B19013D": {
+        "estimate": {
+          "B19013D001": 55988.0
+        },
+        "error": {
+          "B19013D001": 8110.0
+        }
+      },
+      "B19013E": {
+        "estimate": {
+          "B19013E001": null
+        },
+        "error": {
+          "B19013E001": null
+        }
+      },
+      "B19013F": {
+        "estimate": {
+          "B19013F001": 31712.0
+        },
+        "error": {
+          "B19013F001": 1758.0
+        }
+      },
+      "B19013G": {
+        "estimate": {
+          "B19013G001": 33810.0
+        },
+        "error": {
+          "B19013G001": 5413.0
+        }
+      },
+      "B19013H": {
+        "estimate": {
+          "B19013H001": 53422.0
+        },
+        "error": {
+          "B19013H001": 1741.0
+        }
+      },
+      "B19013I": {
+        "estimate": {
+          "B19013I001": 38236.0
+        },
+        "error": {
+          "B19013I001": 1874.0
+        }
+      }
+    },
+    "04000US32": {
+      "B19013": {
+        "estimate": {
+          "B19013001": 51450.0
+        },
+        "error": {
+          "B19013001": 683.0
+        }
+      },
+      "B19013A": {
+        "estimate": {
+          "B19013A001": 54099.0
+        },
+        "error": {
+          "B19013A001": 865.0
+        }
+      },
+      "B19013B": {
+        "estimate": {
+          "B19013B001": 36168.0
+        },
+        "error": {
+          "B19013B001": 1629.0
+        }
+      },
+      "B19013C": {
+        "estimate": {
+          "B19013C001": 46805.0
+        },
+        "error": {
+          "B19013C001": 2620.0
+        }
+      },
+      "B19013D": {
+        "estimate": {
+          "B19013D001": 58874.0
+        },
+        "error": {
+          "B19013D001": 3327.0
+        }
+      },
+      "B19013E": {
+        "estimate": {
+          "B19013E001": 43178.0
+        },
+        "error": {
+          "B19013E001": 19710.0
+        }
+      },
+      "B19013F": {
+        "estimate": {
+          "B19013F001": 41947.0
+        },
+        "error": {
+          "B19013F001": 2468.0
+        }
+      },
+      "B19013G": {
+        "estimate": {
+          "B19013G001": 52305.0
+        },
+        "error": {
+          "B19013G001": 6510.0
+        }
+      },
+      "B19013H": {
+        "estimate": {
+          "B19013H001": 56514.0
+        },
+        "error": {
+          "B19013H001": 1134.0
+        }
+      },
+      "B19013I": {
+        "estimate": {
+          "B19013I001": 43640.0
+        },
+        "error": {
+          "B19013I001": 2285.0
+        }
+      }
+    },
+    "04000US36": {
+      "B19013": {
+        "estimate": {
+          "B19013001": 58878.0
+        },
+        "error": {
+          "B19013001": 393.0
+        }
+      },
+      "B19013A": {
+        "estimate": {
+          "B19013A001": 66399.0
+        },
+        "error": {
+          "B19013A001": 416.0
+        }
+      },
+      "B19013B": {
+        "estimate": {
+          "B19013B001": 40912.0
+        },
+        "error": {
+          "B19013B001": 612.0
+        }
+      },
+      "B19013C": {
+        "estimate": {
+          "B19013C001": 41775.0
+        },
+        "error": {
+          "B19013C001": 5274.0
+        }
+      },
+      "B19013D": {
+        "estimate": {
+          "B19013D001": 61480.0
+        },
+        "error": {
+          "B19013D001": 1324.0
+        }
+      },
+      "B19013E": {
+        "estimate": {
+          "B19013E001": 30210.0
+        },
+        "error": {
+          "B19013E001": 12137.0
+        }
+      },
+      "B19013F": {
+        "estimate": {
+          "B19013F001": 35941.0
+        },
+        "error": {
+          "B19013F001": 773.0
+        }
+      },
+      "B19013G": {
+        "estimate": {
+          "B19013G001": 49803.0
+        },
+        "error": {
+          "B19013G001": 3216.0
+        }
+      },
+      "B19013H": {
+        "estimate": {
+          "B19013H001": 68283.0
+        },
+        "error": {
+          "B19013H001": 519.0
+        }
+      },
+      "B19013I": {
+        "estimate": {
+          "B19013I001": 40740.0
+        },
+        "error": {
+          "B19013I001": 773.0
+        }
+      }
+    },
+    "04000US39": {
+      "B19013": {
+        "estimate": {
+          "B19013001": 49308.0
+        },
+        "error": {
+          "B19013001": 363.0
+        }
+      },
+      "B19013A": {
+        "estimate": {
+          "B19013A001": 52600.0
+        },
+        "error": {
+          "B19013A001": 415.0
+        }
+      },
+      "B19013B": {
+        "estimate": {
+          "B19013B001": 26747.0
+        },
+        "error": {
+          "B19013B001": 727.0
+        }
+      },
+      "B19013C": {
+        "estimate": {
+          "B19013C001": 30882.0
+        },
+        "error": {
+          "B19013C001": 6196.0
+        }
+      },
+      "B19013D": {
+        "estimate": {
+          "B19013D001": 70377.0
+        },
+        "error": {
+          "B19013D001": 4051.0
+        }
+      },
+      "B19013E": {
+        "estimate": {
+          "B19013E001": null
+        },
+        "error": {
+          "B19013E001": null
+        }
+      },
+      "B19013F": {
+        "estimate": {
+          "B19013F001": 35377.0
+        },
+        "error": {
+          "B19013F001": 2831.0
+        }
+      },
+      "B19013G": {
+        "estimate": {
+          "B19013G001": 35713.0
+        },
+        "error": {
+          "B19013G001": 1937.0
+        }
+      },
+      "B19013H": {
+        "estimate": {
+          "B19013H001": 52815.0
+        },
+        "error": {
+          "B19013H001": 445.0
+        }
+      },
+      "B19013I": {
+        "estimate": {
+          "B19013I001": 38794.0
+        },
+        "error": {
+          "B19013I001": 2925.0
+        }
+      }
+    },
+    "04000US40": {
+      "B19013": {
+        "estimate": {
+          "B19013001": 47529.0
+        },
+        "error": {
+          "B19013001": 454.0
+        }
+      },
+      "B19013A": {
+        "estimate": {
+          "B19013A001": 50830.0
+        },
+        "error": {
+          "B19013A001": 423.0
+        }
+      },
+      "B19013B": {
+        "estimate": {
+          "B19013B001": 30003.0
+        },
+        "error": {
+          "B19013B001": 1454.0
+        }
+      },
+      "B19013C": {
+        "estimate": {
+          "B19013C001": 40013.0
+        },
+        "error": {
+          "B19013C001": 1419.0
+        }
+      },
+      "B19013D": {
+        "estimate": {
+          "B19013D001": 49612.0
+        },
+        "error": {
+          "B19013D001": 3667.0
+        }
+      },
+      "B19013E": {
+        "estimate": {
+          "B19013E001": 37487.0
+        },
+        "error": {
+          "B19013E001": 12238.0
+        }
+      },
+      "B19013F": {
+        "estimate": {
+          "B19013F001": 37384.0
+        },
+        "error": {
+          "B19013F001": 2169.0
+        }
+      },
+      "B19013G": {
+        "estimate": {
+          "B19013G001": 44571.0
+        },
+        "error": {
+          "B19013G001": 2763.0
+        }
+      },
+      "B19013H": {
+        "estimate": {
+          "B19013H001": 51525.0
+        },
+        "error": {
+          "B19013H001": 474.0
+        }
+      },
+      "B19013I": {
+        "estimate": {
+          "B19013I001": 37783.0
+        },
+        "error": {
+          "B19013I001": 1661.0
+        }
+      }
+    },
+    "04000US41": {
+      "B19013": {
+        "estimate": {
+          "B19013001": 51075.0
+        },
+        "error": {
+          "B19013001": 490.0
+        }
+      },
+      "B19013A": {
+        "estimate": {
+          "B19013A001": 51919.0
+        },
+        "error": {
+          "B19013A001": 524.0
+        }
+      },
+      "B19013B": {
+        "estimate": {
+          "B19013B001": 30892.0
+        },
+        "error": {
+          "B19013B001": 4402.0
+        }
+      },
+      "B19013C": {
+        "estimate": {
+          "B19013C001": 41480.0
+        },
+        "error": {
+          "B19013C001": 6382.0
+        }
+      },
+      "B19013D": {
+        "estimate": {
+          "B19013D001": 67748.0
+        },
+        "error": {
+          "B19013D001": 6999.0
+        }
+      },
+      "B19013E": {
+        "estimate": {
+          "B19013E001": 26987.0
+        },
+        "error": {
+          "B19013E001": 10587.0
+        }
+      },
+      "B19013F": {
+        "estimate": {
+          "B19013F001": 37623.0
+        },
+        "error": {
+          "B19013F001": 3416.0
+        }
+      },
+      "B19013G": {
+        "estimate": {
+          "B19013G001": 37469.0
+        },
+        "error": {
+          "B19013G001": 5396.0
+        }
+      },
+      "B19013H": {
+        "estimate": {
+          "B19013H001": 52915.0
+        },
+        "error": {
+          "B19013H001": 777.0
+        }
+      },
+      "B19013I": {
+        "estimate": {
+          "B19013I001": 39780.0
+        },
+        "error": {
+          "B19013I001": 1987.0
+        }
+      }
+    },
+    "04000US42": {
+      "B19013": {
+        "estimate": {
+          "B19013001": 53234.0
+        },
+        "error": {
+          "B19013001": 420.0
+        }
+      },
+      "B19013A": {
+        "estimate": {
+          "B19013A001": 56862.0
+        },
+        "error": {
+          "B19013A001": 428.0
+        }
+      },
+      "B19013B": {
+        "estimate": {
+          "B19013B001": 32271.0
+        },
+        "error": {
+          "B19013B001": 779.0
+        }
+      },
+      "B19013C": {
+        "estimate": {
+          "B19013C001": 31632.0
+        },
+        "error": {
+          "B19013C001": 7755.0
+        }
+      },
+      "B19013D": {
+        "estimate": {
+          "B19013D001": 64041.0
+        },
+        "error": {
+          "B19013D001": 3835.0
+        }
+      },
+      "B19013E": {
+        "estimate": {
+          "B19013E001": 56984.0
+        },
+        "error": {
+          "B19013E001": 46059.0
+        }
+      },
+      "B19013F": {
+        "estimate": {
+          "B19013F001": 31952.0
+        },
+        "error": {
+          "B19013F001": 2554.0
+        }
+      },
+      "B19013G": {
+        "estimate": {
+          "B19013G001": 37432.0
+        },
+        "error": {
+          "B19013G001": 2665.0
+        }
+      },
+      "B19013H": {
+        "estimate": {
+          "B19013H001": 57540.0
+        },
+        "error": {
+          "B19013H001": 503.0
+        }
+      },
+      "B19013I": {
+        "estimate": {
+          "B19013I001": 35231.0
+        },
+        "error": {
+          "B19013I001": 1450.0
+        }
+      }
+    },
+    "04000US44": {
+      "B19013": {
+        "estimate": {
+          "B19013001": 54891.0
+        },
+        "error": {
+          "B19013001": 1488.0
+        }
+      },
+      "B19013A": {
+        "estimate": {
+          "B19013A001": 59487.0
+        },
+        "error": {
+          "B19013A001": 1971.0
+        }
+      },
+      "B19013B": {
+        "estimate": {
+          "B19013B001": 35772.0
+        },
+        "error": {
+          "B19013B001": 4532.0
+        }
+      },
+      "B19013C": {
+        "estimate": {
+          "B19013C001": 20485.0
+        },
+        "error": {
+          "B19013C001": 18478.0
+        }
+      },
+      "B19013D": {
+        "estimate": {
+          "B19013D001": 62203.0
+        },
+        "error": {
+          "B19013D001": 14759.0
+        }
+      },
+      "B19013E": {
+        "estimate": {
+          "B19013E001": null
+        },
+        "error": {
+          "B19013E001": null
+        }
+      },
+      "B19013F": {
+        "estimate": {
+          "B19013F001": 31283.0
+        },
+        "error": {
+          "B19013F001": 3467.0
+        }
+      },
+      "B19013G": {
+        "estimate": {
+          "B19013G001": 40536.0
+        },
+        "error": {
+          "B19013G001": 8422.0
+        }
+      },
+      "B19013H": {
+        "estimate": {
+          "B19013H001": 61406.0
+        },
+        "error": {
+          "B19013H001": 1445.0
+        }
+      },
+      "B19013I": {
+        "estimate": {
+          "B19013I001": 30797.0
+        },
+        "error": {
+          "B19013I001": 2316.0
+        }
+      }
+    },
+    "04000US45": {
+      "B19013": {
+        "estimate": {
+          "B19013001": 45238.0
+        },
+        "error": {
+          "B19013001": 507.0
+        }
+      },
+      "B19013A": {
+        "estimate": {
+          "B19013A001": 51912.0
+        },
+        "error": {
+          "B19013A001": 524.0
+        }
+      },
+      "B19013B": {
+        "estimate": {
+          "B19013B001": 30333.0
+        },
+        "error": {
+          "B19013B001": 648.0
+        }
+      },
+      "B19013C": {
+        "estimate": {
+          "B19013C001": 27775.0
+        },
+        "error": {
+          "B19013C001": 4318.0
+        }
+      },
+      "B19013D": {
+        "estimate": {
+          "B19013D001": 51325.0
+        },
+        "error": {
+          "B19013D001": 5285.0
+        }
+      },
+      "B19013E": {
+        "estimate": {
+          "B19013E001": 32135.0
+        },
+        "error": {
+          "B19013E001": 11158.0
+        }
+      },
+      "B19013F": {
+        "estimate": {
+          "B19013F001": 30761.0
+        },
+        "error": {
+          "B19013F001": 4400.0
+        }
+      },
+      "B19013G": {
+        "estimate": {
+          "B19013G001": 42925.0
+        },
+        "error": {
+          "B19013G001": 9271.0
+        }
+      },
+      "B19013H": {
+        "estimate": {
+          "B19013H001": 52356.0
+        },
+        "error": {
+          "B19013H001": 593.0
+        }
+      },
+      "B19013I": {
+        "estimate": {
+          "B19013I001": 35595.0
+        },
+        "error": {
+          "B19013I001": 2307.0
+        }
+      }
+    },
+    "04000US46": {
+      "B19013": {
+        "estimate": {
+          "B19013001": 50979.0
+        },
+        "error": {
+          "B19013001": 1027.0
+        }
+      },
+      "B19013A": {
+        "estimate": {
+          "B19013A001": 52971.0
+        },
+        "error": {
+          "B19013A001": 1534.0
+        }
+      },
+      "B19013B": {
+        "estimate": {
+          "B19013B001": 37242.0
+        },
+        "error": {
+          "B19013B001": 11457.0
+        }
+      },
+      "B19013C": {
+        "estimate": {
+          "B19013C001": 24651.0
+        },
+        "error": {
+          "B19013C001": 3232.0
+        }
+      },
+      "B19013D": {
+        "estimate": {
+          "B19013D001": 50758.0
+        },
+        "error": {
+          "B19013D001": 8680.0
+        }
+      },
+      "B19013E": {
+        "estimate": {
+          "B19013E001": null
+        },
+        "error": {
+          "B19013E001": null
+        }
+      },
+      "B19013F": {
+        "estimate": {
+          "B19013F001": 36700.0
+        },
+        "error": {
+          "B19013F001": 22013.0
+        }
+      },
+      "B19013G": {
+        "estimate": {
+          "B19013G001": 50333.0
+        },
+        "error": {
+          "B19013G001": 10868.0
+        }
+      },
+      "B19013H": {
+        "estimate": {
+          "B19013H001": 53187.0
+        },
+        "error": {
+          "B19013H001": 1574.0
+        }
+      },
+      "B19013I": {
+        "estimate": {
+          "B19013I001": 43338.0
+        },
+        "error": {
+          "B19013I001": 12669.0
+        }
+      }
+    },
+    "04000US47": {
+      "B19013": {
+        "estimate": {
+          "B19013001": 44361.0
+        },
+        "error": {
+          "B19013001": 561.0
+        }
+      },
+      "B19013A": {
+        "estimate": {
+          "B19013A001": 47887.0
+        },
+        "error": {
+          "B19013A001": 686.0
+        }
+      },
+      "B19013B": {
+        "estimate": {
+          "B19013B001": 31071.0
+        },
+        "error": {
+          "B19013B001": 809.0
+        }
+      },
+      "B19013C": {
+        "estimate": {
+          "B19013C001": 36657.0
+        },
+        "error": {
+          "B19013C001": 11546.0
+        }
+      },
+      "B19013D": {
+        "estimate": {
+          "B19013D001": 66118.0
+        },
+        "error": {
+          "B19013D001": 4497.0
+        }
+      },
+      "B19013E": {
+        "estimate": {
+          "B19013E001": null
+        },
+        "error": {
+          "B19013E001": null
+        }
+      },
+      "B19013F": {
+        "estimate": {
+          "B19013F001": 29035.0
+        },
+        "error": {
+          "B19013F001": 3447.0
+        }
+      },
+      "B19013G": {
+        "estimate": {
+          "B19013G001": 34383.0
+        },
+        "error": {
+          "B19013G001": 3616.0
+        }
+      },
+      "B19013H": {
+        "estimate": {
+          "B19013H001": 48218.0
+        },
+        "error": {
+          "B19013H001": 698.0
+        }
+      },
+      "B19013I": {
+        "estimate": {
+          "B19013I001": 35941.0
+        },
+        "error": {
+          "B19013I001": 2292.0
+        }
+      }
+    },
+    "04000US48": {
+      "B19013": {
+        "estimate": {
+          "B19013001": 53035.0
+        },
+        "error": {
+          "B19013001": 377.0
+        }
+      },
+      "B19013A": {
+        "estimate": {
+          "B19013A001": 56256.0
+        },
+        "error": {
+          "B19013A001": 360.0
+        }
+      },
+      "B19013B": {
+        "estimate": {
+          "B19013B001": 39280.0
+        },
+        "error": {
+          "B19013B001": 968.0
+        }
+      },
+      "B19013C": {
+        "estimate": {
+          "B19013C001": 45836.0
+        },
+        "error": {
+          "B19013C001": 2628.0
+        }
+      },
+      "B19013D": {
+        "estimate": {
+          "B19013D001": 76928.0
+        },
+        "error": {
+          "B19013D001": 2326.0
+        }
+      },
+      "B19013E": {
+        "estimate": {
+          "B19013E001": 44367.0
+        },
+        "error": {
+          "B19013E001": 7094.0
+        }
+      },
+      "B19013F": {
+        "estimate": {
+          "B19013F001": 40139.0
+        },
+        "error": {
+          "B19013F001": 906.0
+        }
+      },
+      "B19013G": {
+        "estimate": {
+          "B19013G001": 49174.0
+        },
+        "error": {
+          "B19013G001": 2280.0
+        }
+      },
+      "B19013H": {
+        "estimate": {
+          "B19013H001": 65786.0
+        },
+        "error": {
+          "B19013H001": 456.0
+        }
+      },
+      "B19013I": {
+        "estimate": {
+          "B19013I001": 41177.0
+        },
+        "error": {
+          "B19013I001": 427.0
+        }
+      }
+    },
+    "04000US49": {
+      "B19013": {
+        "estimate": {
+          "B19013001": 60922.0
+        },
+        "error": {
+          "B19013001": 658.0
+        }
+      },
+      "B19013A": {
+        "estimate": {
+          "B19013A001": 62170.0
+        },
+        "error": {
+          "B19013A001": 651.0
+        }
+      },
+      "B19013B": {
+        "estimate": {
+          "B19013B001": 41611.0
+        },
+        "error": {
+          "B19013B001": 9095.0
+        }
+      },
+      "B19013C": {
+        "estimate": {
+          "B19013C001": 41119.0
+        },
+        "error": {
+          "B19013C001": 8909.0
+        }
+      },
+      "B19013D": {
+        "estimate": {
+          "B19013D001": 67412.0
+        },
+        "error": {
+          "B19013D001": 6904.0
+        }
+      },
+      "B19013E": {
+        "estimate": {
+          "B19013E001": 60929.0
+        },
+        "error": {
+          "B19013E001": 12450.0
+        }
+      },
+      "B19013F": {
+        "estimate": {
+          "B19013F001": 41712.0
+        },
+        "error": {
+          "B19013F001": 3968.0
+        }
+      },
+      "B19013G": {
+        "estimate": {
+          "B19013G001": 48794.0
+        },
+        "error": {
+          "B19013G001": 5067.0
+        }
+      },
+      "B19013H": {
+        "estimate": {
+          "B19013H001": 63994.0
+        },
+        "error": {
+          "B19013H001": 972.0
+        }
+      },
+      "B19013I": {
+        "estimate": {
+          "B19013I001": 42772.0
+        },
+        "error": {
+          "B19013I001": 2399.0
+        }
+      }
+    },
+    "04000US51": {
+      "B19013": {
+        "estimate": {
+          "B19013001": 64902.0
+        },
+        "error": {
+          "B19013001": 624.0
+        }
+      },
+      "B19013A": {
+        "estimate": {
+          "B19013A001": 70387.0
+        },
+        "error": {
+          "B19013A001": 673.0
+        }
+      },
+      "B19013B": {
+        "estimate": {
+          "B19013B001": 43846.0
+        },
+        "error": {
+          "B19013B001": 1431.0
+        }
+      },
+      "B19013C": {
+        "estimate": {
+          "B19013C001": 51372.0
+        },
+        "error": {
+          "B19013C001": 16853.0
+        }
+      },
+      "B19013D": {
+        "estimate": {
+          "B19013D001": 92255.0
+        },
+        "error": {
+          "B19013D001": 3764.0
+        }
+      },
+      "B19013E": {
+        "estimate": {
+          "B19013E001": 108850.0
+        },
+        "error": {
+          "B19013E001": 44310.0
+        }
+      },
+      "B19013F": {
+        "estimate": {
+          "B19013F001": 53147.0
+        },
+        "error": {
+          "B19013F001": 5333.0
+        }
+      },
+      "B19013G": {
+        "estimate": {
+          "B19013G001": 67610.0
+        },
+        "error": {
+          "B19013G001": 4762.0
+        }
+      },
+      "B19013H": {
+        "estimate": {
+          "B19013H001": 70878.0
+        },
+        "error": {
+          "B19013H001": 707.0
+        }
+      },
+      "B19013I": {
+        "estimate": {
+          "B19013I001": 60491.0
+        },
+        "error": {
+          "B19013I001": 1911.0
+        }
+      }
+    },
+    "04000US50": {
+      "B19013": {
+        "estimate": {
+          "B19013001": 54166.0
+        },
+        "error": {
+          "B19013001": 1724.0
+        }
+      },
+      "B19013A": {
+        "estimate": {
+          "B19013A001": 54669.0
+        },
+        "error": {
+          "B19013A001": 1682.0
+        }
+      },
+      "B19013B": {
+        "estimate": {
+          "B19013B001": 50933.0
+        },
+        "error": {
+          "B19013B001": 39811.0
+        }
+      },
+      "B19013C": {
+        "estimate": {
+          "B19013C001": 32237.0
+        },
+        "error": {
+          "B19013C001": 17566.0
+        }
+      },
+      "B19013D": {
+        "estimate": {
+          "B19013D001": 60212.0
+        },
+        "error": {
+          "B19013D001": 18123.0
+        }
+      },
+      "B19013E": {
+        "estimate": {
+          "B19013E001": null
+        },
+        "error": {
+          "B19013E001": null
+        }
+      },
+      "B19013F": {
+        "estimate": {
+          "B19013F001": null
+        },
+        "error": {
+          "B19013F001": null
+        }
+      },
+      "B19013G": {
+        "estimate": {
+          "B19013G001": 43973.0
+        },
+        "error": {
+          "B19013G001": 6715.0
+        }
+      },
+      "B19013H": {
+        "estimate": {
+          "B19013H001": 54640.0
+        },
+        "error": {
+          "B19013H001": 1681.0
+        }
+      },
+      "B19013I": {
+        "estimate": {
+          "B19013I001": 50538.0
+        },
+        "error": {
+          "B19013I001": 15474.0
+        }
+      }
+    },
+    "04000US53": {
+      "B19013": {
+        "estimate": {
+          "B19013001": 61366.0
+        },
+        "error": {
+          "B19013001": 485.0
+        }
+      },
+      "B19013A": {
+        "estimate": {
+          "B19013A001": 62357.0
+        },
+        "error": {
+          "B19013A001": 544.0
+        }
+      },
+      "B19013B": {
+        "estimate": {
+          "B19013B001": 43296.0
+        },
+        "error": {
+          "B19013B001": 3861.0
+        }
+      },
+      "B19013C": {
+        "estimate": {
+          "B19013C001": 37856.0
+        },
+        "error": {
+          "B19013C001": 4073.0
+        }
+      },
+      "B19013D": {
+        "estimate": {
+          "B19013D001": 75039.0
+        },
+        "error": {
+          "B19013D001": 3148.0
+        }
+      },
+      "B19013E": {
+        "estimate": {
+          "B19013E001": 55027.0
+        },
+        "error": {
+          "B19013E001": 15596.0
+        }
+      },
+      "B19013F": {
+        "estimate": {
+          "B19013F001": 45208.0
+        },
+        "error": {
+          "B19013F001": 3166.0
+        }
+      },
+      "B19013G": {
+        "estimate": {
+          "B19013G001": 53999.0
+        },
+        "error": {
+          "B19013G001": 3283.0
+        }
+      },
+      "B19013H": {
+        "estimate": {
+          "B19013H001": 63519.0
+        },
+        "error": {
+          "B19013H001": 806.0
+        }
+      },
+      "B19013I": {
+        "estimate": {
+          "B19013I001": 47010.0
+        },
+        "error": {
+          "B19013I001": 1725.0
+        }
+      }
+    },
+    "04000US55": {
+      "B19013": {
+        "estimate": {
+          "B19013001": 52622.0
+        },
+        "error": {
+          "B19013001": 433.0
+        }
+      },
+      "B19013A": {
+        "estimate": {
+          "B19013A001": 55619.0
+        },
+        "error": {
+          "B19013A001": 413.0
+        }
+      },
+      "B19013B": {
+        "estimate": {
+          "B19013B001": 26053.0
+        },
+        "error": {
+          "B19013B001": 1345.0
+        }
+      },
+      "B19013C": {
+        "estimate": {
+          "B19013C001": 35504.0
+        },
+        "error": {
+          "B19013C001": 4355.0
+        }
+      },
+      "B19013D": {
+        "estimate": {
+          "B19013D001": 50264.0
+        },
+        "error": {
+          "B19013D001": 5679.0
+        }
+      },
+      "B19013E": {
+        "estimate": {
+          "B19013E001": 45224.0
+        },
+        "error": {
+          "B19013E001": 22530.0
+        }
+      },
+      "B19013F": {
+        "estimate": {
+          "B19013F001": 34564.0
+        },
+        "error": {
+          "B19013F001": 2610.0
+        }
+      },
+      "B19013G": {
+        "estimate": {
+          "B19013G001": 41193.0
+        },
+        "error": {
+          "B19013G001": 4053.0
+        }
+      },
+      "B19013H": {
+        "estimate": {
+          "B19013H001": 56083.0
+        },
+        "error": {
+          "B19013H001": 410.0
+        }
+      },
+      "B19013I": {
+        "estimate": {
+          "B19013I001": 37140.0
+        },
+        "error": {
+          "B19013I001": 1535.0
+        }
+      }
+    },
+    "04000US54": {
+      "B19013": {
+        "estimate": {
+          "B19013001": 41059.0
+        },
+        "error": {
+          "B19013001": 651.0
+        }
+      },
+      "B19013A": {
+        "estimate": {
+          "B19013A001": 41686.0
+        },
+        "error": {
+          "B19013A001": 677.0
+        }
+      },
+      "B19013B": {
+        "estimate": {
+          "B19013B001": 30044.0
+        },
+        "error": {
+          "B19013B001": 3291.0
+        }
+      },
+      "B19013C": {
+        "estimate": {
+          "B19013C001": 20484.0
+        },
+        "error": {
+          "B19013C001": 12281.0
+        }
+      },
+      "B19013D": {
+        "estimate": {
+          "B19013D001": 38666.0
+        },
+        "error": {
+          "B19013D001": 15845.0
+        }
+      },
+      "B19013E": {
+        "estimate": {
+          "B19013E001": null
+        },
+        "error": {
+          "B19013E001": null
+        }
+      },
+      "B19013F": {
+        "estimate": {
+          "B19013F001": 22077.0
+        },
+        "error": {
+          "B19013F001": 21111.0
+        }
+      },
+      "B19013G": {
+        "estimate": {
+          "B19013G001": 32967.0
+        },
+        "error": {
+          "B19013G001": 10351.0
+        }
+      },
+      "B19013H": {
+        "estimate": {
+          "B19013H001": 41673.0
+        },
+        "error": {
+          "B19013H001": 673.0
+        }
+      },
+      "B19013I": {
+        "estimate": {
+          "B19013I001": 34907.0
+        },
+        "error": {
+          "B19013I001": 12351.0
+        }
+      }
+    },
+    "04000US56": {
+      "B19013": {
+        "estimate": {
+          "B19013001": 57055.0
+        },
+        "error": {
+          "B19013001": 1983.0
+        }
+      },
+      "B19013A": {
+        "estimate": {
+          "B19013A001": 58875.0
+        },
+        "error": {
+          "B19013A001": 2546.0
+        }
+      },
+      "B19013B": {
+        "estimate": {
+          "B19013B001": null
+        },
+        "error": {
+          "B19013B001": null
+        }
+      },
+      "B19013C": {
+        "estimate": {
+          "B19013C001": 45020.0
+        },
+        "error": {
+          "B19013C001": 26441.0
+        }
+      },
+      "B19013D": {
+        "estimate": {
+          "B19013D001": 46579.0
+        },
+        "error": {
+          "B19013D001": 14966.0
+        }
+      },
+      "B19013E": {
+        "estimate": {
+          "B19013E001": null
+        },
+        "error": {
+          "B19013E001": null
+        }
+      },
+      "B19013F": {
+        "estimate": {
+          "B19013F001": 32398.0
+        },
+        "error": {
+          "B19013F001": 18722.0
+        }
+      },
+      "B19013G": {
+        "estimate": {
+          "B19013G001": 29451.0
+        },
+        "error": {
+          "B19013G001": 15606.0
+        }
+      },
+      "B19013H": {
+        "estimate": {
+          "B19013H001": 60360.0
+        },
+        "error": {
+          "B19013H001": 1647.0
+        }
+      },
+      "B19013I": {
+        "estimate": {
+          "B19013I001": 43002.0
+        },
+        "error": {
+          "B19013I001": 2923.0
+        }
+      }
+    }
+  },
+  "geography": {
+    "04000US01": {
+      "name": "Alabama"
+    },
+    "04000US02": {
+      "name": "Alaska"
+    },
+    "04000US04": {
+      "name": "Arizona"
+    },
+    "04000US05": {
+      "name": "Arkansas"
+    },
+    "04000US06": {
+      "name": "California"
+    },
+    "04000US08": {
+      "name": "Colorado"
+    },
+    "04000US09": {
+      "name": "Connecticut"
+    },
+    "04000US10": {
+      "name": "Delaware"
+    },
+    "04000US11": {
+      "name": "District of Columbia"
+    },
+    "04000US12": {
+      "name": "Florida"
+    },
+    "04000US13": {
+      "name": "Georgia"
+    },
+    "04000US15": {
+      "name": "Hawaii"
+    },
+    "04000US16": {
+      "name": "Idaho"
+    },
+    "04000US17": {
+      "name": "Illinois"
+    },
+    "04000US18": {
+      "name": "Indiana"
+    },
+    "04000US19": {
+      "name": "Iowa"
+    },
+    "04000US20": {
+      "name": "Kansas"
+    },
+    "04000US21": {
+      "name": "Kentucky"
+    },
+    "04000US22": {
+      "name": "Louisiana"
+    },
+    "04000US23": {
+      "name": "Maine"
+    },
+    "04000US24": {
+      "name": "Maryland"
+    },
+    "04000US25": {
+      "name": "Massachusetts"
+    },
+    "04000US26": {
+      "name": "Michigan"
+    },
+    "04000US27": {
+      "name": "Minnesota"
+    },
+    "04000US28": {
+      "name": "Mississippi"
+    },
+    "04000US29": {
+      "name": "Missouri"
+    },
+    "04000US30": {
+      "name": "Montana"
+    },
+    "04000US31": {
+      "name": "Nebraska"
+    },
+    "04000US32": {
+      "name": "Nevada"
+    },
+    "04000US33": {
+      "name": "New Hampshire"
+    },
+    "04000US34": {
+      "name": "New Jersey"
+    },
+    "04000US35": {
+      "name": "New Mexico"
+    },
+    "04000US36": {
+      "name": "New York"
+    },
+    "04000US37": {
+      "name": "North Carolina"
+    },
+    "04000US38": {
+      "name": "North Dakota"
+    },
+    "04000US39": {
+      "name": "Ohio"
+    },
+    "04000US40": {
+      "name": "Oklahoma"
+    },
+    "04000US41": {
+      "name": "Oregon"
+    },
+    "04000US42": {
+      "name": "Pennsylvania"
+    },
+    "04000US44": {
+      "name": "Rhode Island"
+    },
+    "04000US45": {
+      "name": "South Carolina"
+    },
+    "04000US46": {
+      "name": "South Dakota"
+    },
+    "04000US47": {
+      "name": "Tennessee"
+    },
+    "04000US48": {
+      "name": "Texas"
+    },
+    "04000US49": {
+      "name": "Utah"
+    },
+    "04000US50": {
+      "name": "Vermont"
+    },
+    "04000US51": {
+      "name": "Virginia"
+    },
+    "04000US53": {
+      "name": "Washington"
+    },
+    "04000US54": {
+      "name": "West Virginia"
+    },
+    "04000US55": {
+      "name": "Wisconsin"
+    },
+    "04000US56": {
+      "name": "Wyoming"
+    }
+  }
+}
