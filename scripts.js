@@ -144,14 +144,31 @@ $.getJSON("median_income.json", function(json) {
         var medianIncome = json.data[key][tableId].estimate[k]
       }
 
+      if (medianIncome > 74000)
+        var fillKey = 'High'
+      else if (medianIncome > 50000)
+        var fillKey = 'Medium'
+      else if (medianIncome > 35000)
+        var fillKey = 'Low'
+      else
+        var fillKey = 'Poverty'
+
       medianIncomeData[stateCode] = {
-        medianIncome: medianIncome
+        medianIncome: medianIncome,
+        fillKey: fillKey
       }
     }
 
     var medianIncomeMap = new Datamap({
       element: document.getElementById(medianIncomeTables[tableId]),
       scope: 'usa',
+      fills: {
+        High: 'rgb(39, 108, 145)',
+        Medium: 'rgb(204, 219, 163)',
+        Low: 'rgb(236, 203, 123)',
+        Poverty: 'rgb(182, 49, 50)',
+        defaultFill: 'green'
+      },
       geographyConfig: {
         popupTemplate: function(geo, data) {
           return '<div class="hoverinfo">' +
@@ -161,6 +178,7 @@ $.getJSON("median_income.json", function(json) {
       },
       data: medianIncomeData
     });
+    medianIncomeMap.legend();
   }
 
   // datamaps doesn't seem to build the map if the element is hidden,
@@ -193,6 +211,17 @@ $.getJSON("employment.json", function(json) {
       var letter = tableId.slice(-1); // the last letter of the table is needed for the query
 
       var unemployment = unemploymentRate(json, key, tableId, letter);
+      var fillKey = "";
+
+      if (unemployment === -1)
+        fillKey = 'Not Available'
+      else if (unemployment > 12)
+        fillKey = 'High'
+      else if (unemployment > 8)
+        fillKey = 'Medium'
+      else
+        fillKey = 'Low'
+
 
       if (unemployment === -1)
         unemployment = "Not enough data";
@@ -200,13 +229,21 @@ $.getJSON("employment.json", function(json) {
         unemployment = 'Unemployment: ' + unemployment + '%';
 
       employmentData[stateCode] = {
-        unemployment: unemployment
+        unemployment: unemployment,
+        fillKey: fillKey
       }
     }
 
     var employmentMap = new Datamap({
       element: document.getElementById(employmentTables[tableId]),
       scope: 'usa',
+      fills: {
+        High: 'rgb(182, 49, 50)',
+        Medium: 'rgb(236, 203, 123)',
+        Low: 'rgb(39, 108, 145)',
+        "Not Available": '#9E9E9E',
+        defaultFill: 'green'
+      },
       geographyConfig: {
         popupTemplate: function(geo, data) {
           return '<div class="hoverinfo">' +
@@ -216,6 +253,7 @@ $.getJSON("employment.json", function(json) {
       },
       data: employmentData
     });
+    employmentMap.legend();
   }
 
   // datamaps doesn't seem to build the map if the element is hidden,
