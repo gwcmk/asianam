@@ -129,7 +129,6 @@ var tables = {
   "B19013C": "medianIncomeAmericanIndian",
   "B19013D": "medianIncomeAsian",
   "B19013I": "medianIncomeLatino"
-
 }
 
 var medianIncomeData = {};
@@ -162,15 +161,20 @@ $.getJSON("output.json", function(json) {
       data: medianIncomeData
     });
   }
+
+  $('.median-income-map').each(function() {
+    $(this).addClass("hidden");
+  })
+  $('#medianIncome').removeClass('hidden').addClass('show');
 });
 
-function addMap(tableId, cssId, json) {
+function addMap(id, json) {
   for (var key in json.data) {
     var state = json.geography[key].name;
     var stateCode = statesToCode[state];
 
-    for (var k in json.data[key][tableId].estimate) {
-      var medianIncome = json.data[key][tableId].estimate[k]
+    for (var k in json.data[key][idToTables[id]].estimate) {
+      var medianIncome = json.data[key][idToTables[id]].estimate[k]
     }
 
     medianIncomeData[stateCode] = {
@@ -179,7 +183,7 @@ function addMap(tableId, cssId, json) {
   }
 
   var medianIncomeMap = new Datamap({
-    element: document.getElementById(cssId),
+    element: document.getElementById('medianIncome'),
     scope: 'usa',
     geographyConfig: {
       popupTemplate: function(geo, data) {
@@ -191,3 +195,11 @@ function addMap(tableId, cssId, json) {
     data: medianIncomeData
   });
 }
+
+$(document).ready(function() {
+  $( "select" ).change(function() {
+    var id = "#" + $( "select option:selected" ).val();
+    $('.show').removeClass('show').addClass('hidden');
+    $(id).removeClass('hidden').addClass('show');
+  })
+})
