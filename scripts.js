@@ -122,7 +122,7 @@ var statesToCode = {
   'Wyoming': 'WY' 
 }
 
-var tables = {
+var medianIncomeTables = {
   "B19013": "medianIncome",
   "B19013H": "medianIncomeWhite",
   "B19013B": "medianIncomeAfricanAmerican",
@@ -133,9 +133,9 @@ var tables = {
 
 var medianIncomeData = {};
 
-// builds maps from ACS data
-$.getJSON("output.json", function(json) {
-  for (var tableId in tables) {
+// builds median income maps from ACS data
+$.getJSON("median_income.json", function(json) {
+  for (var tableId in medianIncomeTables) {
     for (var key in json.data) {
       var state = json.geography[key].name;
       var stateCode = statesToCode[state];
@@ -150,12 +150,12 @@ $.getJSON("output.json", function(json) {
     }
 
     var medianIncomeMap = new Datamap({
-      element: document.getElementById(tables[tableId]),
+      element: document.getElementById(medianIncomeTables[tableId]),
       scope: 'usa',
       geographyConfig: {
         popupTemplate: function(geo, data) {
           return '<div class="hoverinfo">' +
-            geo.properties.name + '<br>Median Income: ' +  data.medianIncome +
+            geo.properties.name + '<br>Median Income: $' +  data.medianIncome +
             '</div>';
         }
       },
@@ -171,41 +171,95 @@ $.getJSON("output.json", function(json) {
   })
 
   // show "All" map by default
-  $('#medianIncome').show().addClass('active');
+  $('#medianIncome').show().addClass('median-income-active');
 });
 
-function addMap(id, json) {
-  for (var key in json.data) {
-    var state = json.geography[key].name;
-    var stateCode = statesToCode[state];
+var employmentTables = {
+  "C23002H": "employmentWhite",
+  "C23002B": "employmentAfricanAmerican",
+  "C23002C": "employmentAmericanIndian",
+  "C23002D": "employmentAsian",
+  "C23002I": "employmentLatino"
+}
 
-    for (var k in json.data[key][idToTables[id]].estimate) {
-      var medianIncome = json.data[key][idToTables[id]].estimate[k]
+var employmentData = {};
+
+// builds employment maps from ACS data
+$.getJSON("employment.json", function(json) {
+  for (var tableId in employmentTables) {
+    for (var key in json.data) {
+      var state = json.geography[key].name;
+      var stateCode = statesToCode[state];
+      var letter = tableId.slice(-1); // the last letter of the table is needed for the query
+
+      var unemployment = unemploymentRate(json, key, tableId, letter);
+
+      if (unemployment === -1)
+        unemployment = "Not enough data";
+      else
+        unemployment = 'Unemployment: ' + unemployment + '%';
+
+      employmentData[stateCode] = {
+        unemployment: unemployment
+      }
     }
 
-    medianIncomeData[stateCode] = {
-      medianIncome: medianIncome
-    }
+    var employmentMap = new Datamap({
+      element: document.getElementById(employmentTables[tableId]),
+      scope: 'usa',
+      geographyConfig: {
+        popupTemplate: function(geo, data) {
+          return '<div class="hoverinfo">' +
+            geo.properties.name + '<br>' +  data.unemployment +
+            '</div>';
+        }
+      },
+      data: employmentData
+    });
   }
 
-  var medianIncomeMap = new Datamap({
-    element: document.getElementById('medianIncome'),
-    scope: 'usa',
-    geographyConfig: {
-      popupTemplate: function(geo, data) {
-        return '<div class="hoverinfo">' +
-          geo.properties.name + '<br>Median Income: ' +  data.medianIncome +
-          '</div>';
-      }
-    },
-    data: medianIncomeData
+  // datamaps doesn't seem to build the map if the element is hidden,
+  // so it needs to wait until the map is finished before hiding it
+  $('.employment-map').each(function() {
+    // $(this).addClass("hidden");
+    $(this).hide();
+  })
+
+  // show "All" map by default
+  $('#employmentAsian').show().addClass('employment-active');
+});
+
+function unemploymentRate(json, key, tableId, letter) {
+  var unemployed = 0;
+  var laborForce = 0;
+
+  var laborForceCodes = ['011', '017'];
+  var unemploymentCodes = ['008', '021'];
+
+  laborForceCodes.forEach(function(code) {
+    laborForce += json.data[key][tableId].estimate["C23002" + letter + code];
   });
+
+  unemploymentCodes.forEach(function(code) {
+    unemployed += json.data[key][tableId].estimate["C23002" + letter + code];
+  });
+
+  if (laborForce === 0)
+    return -1;
+
+  return ((unemployed/laborForce) * 100).toFixed(2);
 }
 
 $(document).ready(function() {
-  $( "select" ).change(function() {
-    var id = "#" + $( "select option:selected" ).val();
-    $('.active').fadeOut(100);
-    $(id).delay(100).fadeIn(500).addClass('active');
-  })
+  $("#medianIncomeSelect").change(function() {
+    var id = "#" + $("#medianIncomeSelect option:selected").val();
+    $('.median-income-active').fadeOut(100);
+    $(id).delay(100).fadeIn(500).addClass('median-income-active');
+  });
+
+  $("#employmentSelect").change(function() {
+    var id = "#" + $("#employmentSelect option:selected").val();
+    $('.employment-active').fadeOut(100);
+    $(id).delay(100).fadeIn(500).addClass('employment-active');
+  });
 })

@@ -9,12 +9,10 @@
 </head>
 <body>
 <div class="container">
-	<!-- <h2>Median Household Income</h2> -->
-
 	<div class="row">
 		<div class="col-md-4">
 			<h3 class="map-heading">Median Household Income</h3>
-			<select class="form-control">
+			<select id="medianIncomeSelect" class="form-control">
 				<option value="medianIncome">All</option>
 				<option value="medianIncomeWhite">White</option>
 				<option value="medianIncomeAfricanAmerican">African American</option>
@@ -30,6 +28,26 @@
 			<div id="medianIncomeAmericanIndian" class="median-income-map"></div>
 			<div id="medianIncomeAsian" class="median-income-map"></div>
 			<div id="medianIncomeLatino" class="median-income-map"></div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-4">
+			<h3 class="map-heading">Unemployment</h3>
+			<select id="employmentSelect" class="form-control">
+				<option value="employmentWhite">White</option>
+				<option value="employmentAfricanAmerican">African American</option>
+				<option value="employmentAmericanIndian">American Indian and Alaska Native</option>
+				<option value="employmentAsian">Asian American</option>
+				<option value="employmentLatino">Hispanic or Latino</option>
+			</select>
+		</div>
+		<div class="col-md-8">
+			<div id="employmentWhite" class="employment-map"></div>
+			<div id="employmentAfricanAmerican" class="employment-map"></div>
+			<div id="employmentAmericanIndian" class="employment-map"></div>
+			<div id="employmentAsian" class="employment-map"></div>
+			<div id="employmentLatino" class="employment-map"></div>
 		</div>
 	</div>
 </div>

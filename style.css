@@ -2,7 +2,7 @@
 	margin-top: 30px;
 }
 
-.median-income-map {
+.median-income-map, .employment-map {
 	width: 100%;
 	height: 70vh;
 }
