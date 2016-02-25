@@ -122,16 +122,55 @@ var statesToCode = {
   'Wyoming': 'WY' 
 }
 
+var tables = {
+  "B19013": "medianIncome",
+  "B19013H": "medianIncomeWhite",
+  "B19013B": "medianIncomeAfricanAmerican",
+  "B19013C": "medianIncomeAmericanIndian",
+  "B19013D": "medianIncomeAsian",
+  "B19013I": "medianIncomeLatino"
+
+}
+
 var medianIncomeData = {};
 
 $.getJSON("output.json", function(json) {
+  for (var tableId in tables) {
+    for (var key in json.data) {
+      var state = json.geography[key].name;
+      var stateCode = statesToCode[state];
 
+      for (var k in json.data[key][tableId].estimate) {
+        var medianIncome = json.data[key][tableId].estimate[k]
+      }
+
+      medianIncomeData[stateCode] = {
+        medianIncome: medianIncome
+      }
+    }
+
+    var medianIncomeMap = new Datamap({
+      element: document.getElementById(tables[tableId]),
+      scope: 'usa',
+      geographyConfig: {
+        popupTemplate: function(geo, data) {
+          return '<div class="hoverinfo">' +
+            geo.properties.name + '<br>Median Income: ' +  data.medianIncome +
+            '</div>';
+        }
+      },
+      data: medianIncomeData
+    });
+  }
+});
+
+function addMap(tableId, cssId, json) {
   for (var key in json.data) {
     var state = json.geography[key].name;
     var stateCode = statesToCode[state];
 
-    for (var k in json.data[key]["B19013"].estimate) {
-      var medianIncome = json.data[key]["B19013"].estimate[k]
+    for (var k in json.data[key][tableId].estimate) {
+      var medianIncome = json.data[key][tableId].estimate[k]
     }
 
     medianIncomeData[stateCode] = {
@@ -140,7 +179,7 @@ $.getJSON("output.json", function(json) {
   }
 
   var medianIncomeMap = new Datamap({
-    element: document.getElementById('container'),
+    element: document.getElementById(cssId),
     scope: 'usa',
     geographyConfig: {
       popupTemplate: function(geo, data) {
@@ -151,4 +190,4 @@ $.getJSON("output.json", function(json) {
     },
     data: medianIncomeData
   });
-});
+}
