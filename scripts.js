@@ -131,6 +131,7 @@ var medianIncomeTables = {
   "B19013I": "medianIncomeLatino"
 }
 
+
 var medianIncomeData = {};
 
 // builds median income maps from ACS data
