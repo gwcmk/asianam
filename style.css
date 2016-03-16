@@ -24,6 +24,10 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 5px 0;
 }
 
+#intro-p {
+	margin-bottom: 30vh;
+}
+
 video {
 	position: absolute;
 	top: 0;
@@ -60,7 +64,7 @@ video {
 }
 
 .datamaps-legend {
-	margin-top: 5vh;
+	margin-top: 25px;
 	left: 25% !important;
 }
 
