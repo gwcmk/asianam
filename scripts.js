@@ -145,11 +145,11 @@ $.getJSON("median_income.json", function(json) {
         var medianIncome = json.data[key][tableId].estimate[k]
       }
 
-      if (medianIncome > 74000)
+      if (medianIncome > 90000)
         var fillKey = 'High'
       else if (medianIncome > 50000)
         var fillKey = 'Medium'
-      else if (medianIncome > 35000)
+      else if (medianIncome > 22541)
         var fillKey = 'Low'
       else
         var fillKey = 'Poverty'
@@ -216,9 +216,9 @@ $.getJSON("employment.json", function(json) {
 
       if (unemployment === -1)
         fillKey = 'Not Available'
-      else if (unemployment > 12)
+      else if (unemployment > 11.25)
         fillKey = 'High'
-      else if (unemployment > 8)
+      else if (unemployment > 6.75)
         fillKey = 'Medium'
       else
         fillKey = 'Low'

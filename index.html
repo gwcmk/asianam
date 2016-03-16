@@ -1,7 +1,6 @@
 <html>
 <head>
 	<title>Asian American Studies 203</title>
-	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.16/d3.min.js"></script>
@@ -23,13 +22,14 @@
 		<div class="col-md-6">
 			<div class="text-container left-col">
 				<p>The Immigration and Naturalization Act of 1965 began a surge of immigration that included many East Asian people (Wong 1986). Between then and now, Asian Americans have attained marked economic success; in many states, they have higher median household income than whites (not including hispanic or latino). Other minority groups have lived in the United States longer than this wave of Asian immigrants, but they have not achieved nearly the same level of economic success. One prevailing stereotype that attempts to explain this phenomenon is that Asian Americans are the model minority, but this idea is problematic and inaccurate. The model minority myth has negative effects on the lives of Asian Americans and fails to account for the hyper-selectivity of Asian immigrants. The circumstances under which many Asian people immigrated to the United States is the most significant reason for their economic success.</p>
-				<p>In 1966, the U.S. News & World Report published an article titled "Success Story of One Minority Group in U.S." This story established Asian Americans as the model minority by attributing their success to their cultural values and work ethic (U.S. News & World Report 1966). Even though this is not the most significant reason for their success, on a surface level, this may seem to paint Asian Americans in a positive light. However, it is not simply a positive stereotype. It causes problems of stereotype threat and creates racial tensions which further white supremacy over the collective black (Bonilla-Silva 2004).</p>
+				<p><a href="http://www.dartmouth.edu/~hist32/Hist33/US%20News%20&%20World%20Report.pdf" target="_blank">In 1966, the U.S. News & World Report published an article titled "Success Story of One Minority Group in U.S."</a> This story established Asian Americans as the model minority by attributing their success to their cultural values and work ethic (U.S. News & World Report 1966). Even though this is not the most significant reason for their success, on a surface level, this may seem to paint Asian Americans in a positive light. However, it is not simply a positive stereotype. It causes problems of stereotype threat and creates racial tensions which further white supremacy over the collective black (Bonilla-Silva 2004).</p>
 			</div>
 		</div>
 
 		<div class="col-md-6">
 			<div>
 				<h3 class="map-heading">Median Household Income</h3>
+				<p>Sort by ethnic group below. High income is greater than $90000, medium income is greater than $50000, low income is greater than $22541, and poverty is lower than $22541. These cutoff numbers are the 75th, 50th, and 25th percentile household incomes for this data set.</p>
 				<select id="medianIncomeSelect" class="form-control">
 					<option value="medianIncome">All</option>
 					<option value="medianIncomeWhite">White</option>
@@ -63,6 +63,7 @@
 		<div class="col-md-6">
 			<div>
 				<h3 class="map-heading">Unemployment</h3>
+				<p>Sort by ethnic group below. Average unemployment in the year of the data set was 9%. High is above the 75th percentile, medium is between the 25th and 75th percentile, and low is below the 25th percentile.</p>
 				<select id="employmentSelect" class="form-control">
 					<option value="employmentWhite">White</option>
 					<option value="employmentAfricanAmerican">African American</option>
@@ -94,54 +95,23 @@
 			</div>
 		</div>
 	</div>
-	<!-- <div class="row">
-		<div class="col-md-12">
-			<div style="text-align: center; margin-top: 3vh;">
-				<h5><a href="https://github.com/gwcmk/asianam" target="_blank">Source code on Github</a></h5>
+	<div class="row">
+		<div class="col-md-4">
+			<div class="footer-link">
+				<h3><a href="references.pdf" target="_blank">List of references</a></h3>
 			</div>
 		</div>
-	</div> -->
-<!-- 	<div class="row">
 		<div class="col-md-4">
-			<h3 class="map-heading">Median Household Income</h3>
-			<select id="medianIncomeSelect" class="form-control">
-				<option value="medianIncome">All</option>
-				<option value="medianIncomeWhite">White</option>
-				<option value="medianIncomeAfricanAmerican">African American</option>
-				<option value="medianIncomeAmericanIndian">American Indian and Alaska Native</option>
-				<option value="medianIncomeAsian">Asian American</option>
-				<option value="medianIncomeLatino">Hispanic or Latino</option>
-			</select>
+			<div class="footer-link">
+				<h3><a href="http://censusreporter.org/" target="_blank">Infographic data source</a></h3>
+			</div>
 		</div>
-		<div class="col-md-8">
-			<div id="medianIncome" class="median-income-map"></div>
-			<div id="medianIncomeWhite" class="median-income-map"></div>
-			<div id="medianIncomeAfricanAmerican" class="median-income-map"></div>
-			<div id="medianIncomeAmericanIndian" class="median-income-map"></div>
-			<div id="medianIncomeAsian" class="median-income-map"></div>
-			<div id="medianIncomeLatino" class="median-income-map"></div>
-		</div>
-	</div> -->
-
-<!-- 	<div class="row">
 		<div class="col-md-4">
-			<h3 class="map-heading">Unemployment</h3>
-			<select id="employmentSelect" class="form-control">
-				<option value="employmentWhite">White</option>
-				<option value="employmentAfricanAmerican">African American</option>
-				<option value="employmentAmericanIndian">American Indian and Alaska Native</option>
-				<option value="employmentAsian">Asian American</option>
-				<option value="employmentLatino">Hispanic or Latino</option>
-			</select>
+			<div class="footer-link">
+				<h3><a href="https://github.com/gwcmk/asianam" target="_blank">Source code</a></h3>
+			</div>
 		</div>
-		<div class="col-md-8">
-			<div id="employmentWhite" class="employment-map"></div>
-			<div id="employmentAfricanAmerican" class="employment-map"></div>
-			<div id="employmentAmericanIndian" class="employment-map"></div>
-			<div id="employmentAsian" class="employment-map"></div>
-			<div id="employmentLatino" class="employment-map"></div>
-		</div>
-	</div> -->
+	</div>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
